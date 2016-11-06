@@ -127,6 +127,7 @@ var data = {
       "movies": [
         {
           "id": "house_of_cards",
+          "name": "House of Cards",
           "description": "Um criativo com pensamento estratégico começa a transformar ações táticas em resultados concretos, pois não mede esforços na tentativa de seguir um planejamento inteligente e assim conquistar o mercado.",
           "starring": "Fee, Calendário de Ações, Campanhas Anuais, Mercado-teste",
           "genres": "Co-branding, Programas, Desenvolvimento de Canais",
@@ -135,6 +136,7 @@ var data = {
         },
         {
           "id": "pulp_fiction",
+          "name": "Pulp Fiction",
           "description": "Este clássico da publicidade estilizada - também conhecido como Storytelling - costura todos os projetos e apresentações em que se envolve, pois descobre que nos tempos de hoje todos querem ouvir e participar de uma boa história.",
           "starring": "Branded Content, Conexão Emocional, Path to Purchase",
           "genres": "Cross Media, Presença Digital, Workshop, Ligar Pontos",
@@ -143,6 +145,7 @@ var data = {
         },
         {
           "id": "quebrando_a_banca",
+          "name": "Quebrando a Banca",
           "description": "Um brilhante mundo se abre com a descoberta do olhar criativo sobre números e dados, que geram melhores oportunidades e mais chances do que as de um cassino em Las Vegas.",
           "starring": "Dados Estatísticos, Market Share, Tendências de Mercado",
           "genres": "Reconhecimento de Padrões, Teoria da Informação, Segmentação",
@@ -151,6 +154,7 @@ var data = {
         },
         {
           "id": "house",
+          "name": "House",
           "description": "Ao encontrar problemas complexos, testa os limites da ciência e abusa de metodologias para tratar dos desafios que deixariam qualquer um de mau humor. Seu segredo: uma misteriosa praticidade!",
           "starring": "Poder de Decisão, Poder Feminino, Respeito",
           "genres": "Moda, Cuidado Pessoal, Mãe & Bebê, Beleza",
@@ -159,6 +163,7 @@ var data = {
         },
         {
           "id": "sex_and_the_city",
+          "name": "Sex and The City",
           "description": "Criar para o mundo feminino, cheio de tendências, atitudes e com sua própria linguagem, só reforçou o que há muito tempo acreditava: as mulheres são f#d@ e vão dominar o mundo...",
           "starring": "Design Thinking, Diagnóstico, Atitude Prática",
           "genres": "Resolução de Problemas, Ciência, Causa & Efeito",
@@ -167,6 +172,7 @@ var data = {
         },
         {
           "id": "missao_impossivel",
+          "name": "Missão Impossível",
           "description": "O superagente Gustavo Chofra e sua experiência aceitam mais uma missão profissional: provar que com sua criatividade e capacidade de produzir material original, é impossível não conseguir uma vaga na NETFLIX.",
           "starring": "Novo Desafio, Carreira, Futuro",
           "genres": "Edificante, Life Changing, Sem Limites",

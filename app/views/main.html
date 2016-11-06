@@ -19,16 +19,15 @@
         <div class="movie-details">
           <h1>{{selectedMovie.name}}</h1>
           <div class="stars">
-            estrelas
+            <img ng-src="images/movies/{{selectedMovie.id}}/rating.png">
           </div>
-          <div class="description">{{selectedMovie.description}}</div>
-          <div class="award" style="margin-left:13px">
-            <div class="row">
-              <div class="col-sm-2">
-                <img src="images/award.png" style="width:20px;height:20px;">{{movie.award}}
-              </div>
-              <div class="col-sm-10"></div>
-            </div>
+          <div class="tx description">{{selectedMovie.description}}</div>
+          <div class="tx">Estrelando: <span class="wt">{{selectedMovie.starring}}</span></div>
+          <div class="tx">Gêneros: <span class="wt">{{selectedMovie.genres}}</span></div>
+          <div class="tx">Momentos: <span class="wt">{{selectedMovie.scenes}}</span></div>
+          <div class="tx award">
+            <img src="images/award.png">
+            {{selectedMovie.award}}
           </div>
         </div>
       </div>
