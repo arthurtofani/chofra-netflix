@@ -1,4 +1,4 @@
 gulp build
-#chmod -R 0755 dist
-#chmod -R 0755 dist/*
+#sudo find ./dist -type f -exec chmod 664 {} +
+#sudo find ./dist -type d -exec chmod 775 {} +
 scp -r dist/* tofani:~/www/chofra/

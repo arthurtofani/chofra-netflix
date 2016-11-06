@@ -93,7 +93,7 @@ var data = {
           "award": "Transformar experiências entre público e marca em memórias afetivas - por meio de tecnologia, inovação e surpresas - é um truque de mestre para futuros love brands."
         },
         {
-          "name": "Tow Story 3",
+          "name": "Toy Story 3",
           "id": "toy_story_3",
           "description": "Quando Entretenimento vai além das telas, os personagens viram mais do que brinquedos, roupas e brindes, ganham voz tornando-se ícones pop que encaram as mais divertidas confusões e produções dentro da agência!",
           "starring": "Licenciamentos, Apparel, Colecionáveis",

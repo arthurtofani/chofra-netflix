@@ -1,11 +1,10 @@
 <p>&nbsp;</p>
-<p>&nbsp;</p>
 <div class="movie-section" id="{{section.id}}" ng-repeat="section in data.lists">
   <div class="container">
     <h2>{{section.title}}</h2>
     <div class="row row-movies">
       <div class="col-xs-2" ng-repeat="movie in section.movies">
-        <div class="thumbnail" ng-click="openDescription(section, movie)">
+        <div class="thumbnail" ng-click="openDescription(section, movie)" ng-mouseout="$timeout.clear(mouseOverPromise);" ng-mouseover="mouseOverMovie(section, movie)" ng-class="{ 'active' : movie==selectedMovie }">
           <img ng-src="images/movies/{{movie.id}}/thumbnail.png">
         </div>
       </div>
@@ -13,7 +12,7 @@
     </div>
   </div>
   <div class="row row-movies">
-    <div class="col-xs-12 movie-description-block animate-if" ng-if="selectedSection==section">
+    <div class="col-xs-12 movie-description-block animate-if" ng-show="selectedSection==section">
       <div class="movie-description-container bg" ng-style="getStyle(selectedMovie)">
       <div class="container">
         <div class="movie-details">
@@ -39,3 +38,6 @@
 <p>&nbsp;</p>
 <p>&nbsp;</p>
 <p>&nbsp;</p>
+<div ng-repeat="section in data.lists" id="preload">
+  <img ng-repeat="movie in section" ng-src="{{'images/movies/' + movie.id + '/background.png'}}" />
+</div>
