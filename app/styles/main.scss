@@ -1,0 +1,132 @@
+// bower:scss
+// endbower
+
+
+body {
+  padding: 0;
+  background-color:#141414;
+  color: #999;
+}
+.navbar-brand {
+  padding: 0;
+}
+.navbar.navbar-default {
+  min-height: 71px;
+  background-color: black;
+  border-color:black;
+}
+.prv {
+  border:1px solid magenta !important;
+}
+.thumbnail {
+  background-color: transparent;
+  border:0;
+  margin-bottom:4px;
+  cursor:pointer;
+  &.active, &:hover {
+    background-color: white;
+  }
+}
+.movie-description-block {
+    padding:0px;
+}
+.movie-description-container {
+  position: relative;
+  left:0;
+  background-color:black;
+  width:100%;
+  &.bg {
+    background-repeat: no-repeat;
+    background-position: right;
+    background-size: cover;
+  }
+}
+.movie-section {
+  padding-bottom:20px;
+  h2 {
+  font-size: 1.4vw;
+  color: #999;
+  font-weight: 700;
+  margin: 0 0 .5em;
+  text-decoration: none;
+  display: inline-block;
+  min-width: 6em;
+  }
+}
+.movie-details {
+  width:50%;
+  h1 {
+    line-height: 1;
+    margin: 0;
+    font-weight: 700;
+    color: #fff;
+    font-size: 2.2vw;
+    width: 670px;
+  }
+  .stars {
+    margin-top:5px;
+    width:70%;
+    height: 30px;
+  }
+}
+
+.animate-if.ng-enter {
+  -webkit-transition: 1s linear all;
+  -moz-transition: 1s linear all;
+  -ms-transition: 1s linear all;
+  -o-transition: 1s linear all;
+  transition: 1s linear all;
+}
+
+.container2 {
+  padding-right: 20px;
+  padding-left: 20px;
+  margin-left:0px;
+  margin-right:0px;
+  width:100%;
+}
+
+.animate-if.ng-leave {
+  -webkit-transition: 1s linear all;
+  -moz-transition: 1s linear all;
+  -ms-transition: 1s linear all;
+  -o-transition: 1s linear all;
+  transition: 1s linear all;
+}
+/* du début de l'entrée */
+ .animate-if.ng-enter {
+    max-height: 0;
+    opacity: 0;
+}
+/* à la fin de l'entrée */
+ .animate-if.ng-enter.ng-enter-active {
+    max-height: 999px;
+    opacity:1;
+}
+/* du début de la sortie */
+ .animate-if.ng-leave {
+    max-height: 999px;
+    opacity:1;
+}
+/* à la fin de la sortie */
+ .animate-if.ng-leave.ng-leave-active {
+    max-height: 0;
+    opacity:1;
+}
+
+
+.row-movies {
+  .col-sm-2, .col-md-2, .col-xs-2, .col-lg-2 {
+    padding:0px
+  }
+}
+  @media (max-width: 990px) {
+    .movie-description-container {
+      min-height:220px;
+    }
+  }
+  @media (min-width: 990px) {
+    .movie-description-container {
+      min-height:310px;
+    }
+  }

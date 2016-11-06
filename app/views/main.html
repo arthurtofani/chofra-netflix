@@ -1,0 +1,42 @@
+<p>&nbsp;</p>
+<p>&nbsp;</p>
+<div class="movie-section" id="{{section.id}}" ng-repeat="section in data.lists">
+  <div class="container">
+    <h2>{{section.title}}</h2>
+    <div class="row row-movies">
+      <div class="col-xs-2" ng-repeat="movie in section.movies">
+        <div class="thumbnail" ng-click="openDescription(section, movie)">
+          <img ng-src="images/movies/{{movie.id}}/thumbnail.png">
+        </div>
+      </div>
+      <div class="clearfix"></div>
+    </div>
+  </div>
+  <div class="row row-movies">
+    <div class="col-xs-12 movie-description-block animate-if" ng-if="selectedSection==section">
+      <div class="movie-description-container bg" ng-style="getStyle(selectedMovie)">
+      <div class="container">
+        <div class="movie-details">
+          <h1>{{selectedMovie.name}}</h1>
+          <div class="stars">
+            estrelas
+          </div>
+          <div class="description">{{selectedMovie.description}}</div>
+          <div class="award" style="margin-left:13px">
+            <div class="row">
+              <div class="col-sm-2">
+                <img src="images/award.png" style="width:20px;height:20px;">{{movie.award}}
+              </div>
+              <div class="col-sm-10"></div>
+            </div>
+          </div>
+        </div>
+      </div>
+      </div>
+    </div>
+  </div>
+</div>
+<p>&nbsp;</p>
+<p>&nbsp;</p>
+<p>&nbsp;</p>
+<p>&nbsp;</p>
