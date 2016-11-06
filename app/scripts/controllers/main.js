@@ -17,30 +17,15 @@ angular.module('chofraNetflixApp')
   	$scope.openDescription = function(section, movie){
 
 		if($scope.selectedSection != section){
-			console.log("entrou")
-			$(".movie-details").css({"margin-left": "50px", "opacity": 0})
 			$scope.selectedSection = section;
 		}
-
+		$(".movie-details").css({"margin-left": "50px", "opacity": 0})
 		$scope.selectedMovie = movie
 		$("body").animate({scrollTop: $("#" + section.id).offset().top}, "slow");
 		$(".movie-details").show()
 		$(".movie-details").animate({"margin-left": "0px", "opacity": 1}, "slow")
       	$timeout.cancel($scope.mouseOverPromise)
       	//$scope.scrollTo($("#" + section.id), 0, 600);
-  	}
-
-  	$scope.mouseOverMovie = function(section, movie){
-  		if($scope.currentMouseOver==movie) return;
-
-  		$scope.currentMouseOver=movie;
-  		$scope.mouseOverPromise = $timeout(function(){
-  			//$scope.openDescription(section, movie);
-  		}, 1000).then(function(){
-  			if($scope.currentMouseOver==movie){
-  				$scope.openDescription(section, movie)
-  			}
-  		})
   	}
 
   	$scope.getStyle = function(movie){

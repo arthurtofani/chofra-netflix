@@ -4,7 +4,7 @@
     <h2>{{section.title}}</h2>
     <div class="row row-movies">
       <div class="col-xs-2" ng-repeat="movie in section.movies">
-        <div class="thumbnail" ng-click="openDescription(section, movie)" ng-mouseout="$timeout.clear(mouseOverPromise);" ng-mouseover="mouseOverMovie(section, movie)" ng-class="{ 'active' : movie==selectedMovie }">
+        <div class="thumbnail" ng-click="openDescription(section, movie)" ng-class="{ 'active' : movie==selectedMovie }">
           <img ng-src="images/movies/{{movie.id}}/thumbnail.png">
         </div>
       </div>
