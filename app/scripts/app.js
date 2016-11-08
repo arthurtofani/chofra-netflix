@@ -68,6 +68,11 @@ angular
 .config(function ($routeProvider) {
     $routeProvider
       .when('/', {
+        templateUrl: 'views/landing_page.html',
+        controller: 'LandingPageCtrl',
+        controllerAs: 'landing_page'
+      })
+      .when('/main', {
         templateUrl: 'views/main.html',
         controller: 'MainCtrl',
         controllerAs: 'main'
