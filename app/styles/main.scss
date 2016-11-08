@@ -117,13 +117,6 @@ body {
 
 
 
-.container2 {
-  padding-right: 20px;
-  padding-left: 20px;
-  margin-left:0px;
-  margin-right:0px;
-  width:100%;
-}
 div#preload { display: none; }
 .animate-if.ng-leave {
   //-webkit-transition: 1s linear all;
@@ -164,9 +157,29 @@ div#preload { display: none; }
     .movie-description-container {
       min-height:220px;
     }
+    .container {
+      margin-left:auto;
+    }
+    .container2 {
+      padding-right: 20px;
+      padding-left: 20px;
+      margin-left:0px;
+      margin-right:0px;
+      width:100%;
+    }
   }
   @media (min-width: 990px) {
     .movie-description-container {
       min-height:310px;
+    }
+    .container {
+      margin-left:30px;
+    }
+    .container2 {
+      padding-right: 20px;
+      padding-left: 20px;
+      margin-left:0px;
+      margin-right:0px;
+      width:100%;
     }
   }
