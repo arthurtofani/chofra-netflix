@@ -126,7 +126,7 @@
           <div class="tx description">{{selectedMovie.description}}</div>
           <div class="tx">Estrelando: <span class="wt">{{selectedMovie.starring}}</span></div>
           <div class="tx">Gêneros: <span class="wt">{{selectedMovie.genres}}</span></div>
-          <div class="tx">Momentos: <span class="wt">{{selectedMovie.scenes}}</span></div>
+          <div class="tx">Cenas e Momentos: <span class="wt">{{selectedMovie.scenes}}</span></div>
           <div class="tx award">
             <img ng-src="images/{{selectedMovie.icon_type}}.png">
             {{selectedMovie.award}}
@@ -149,12 +149,14 @@
 
     <div class="footer">
       <div class="container">
-
-        <p class="text-center">
-          <div class="bt bt-cv" ng-click="toggleCV()"></div>
-          <div class="bt bt-thanks" ng-click="toggleThanks()"></div>
-          <img src="images/sitemap.png">
-        </p>
+        <div class="text-center">
+          <span class="bt bt-cv" ng-click="toggleCV()"></span>
+          <span class="bt bt-thanks" ng-click="toggleThanks()"></span>
+          <!--img src="images/sitemap.png"-->
+          <a ng-click="toggleCV()">Currículo</a>
+          <a ng-click="toggleCV()">Disclaimer</a>
+          <a ng-click="toggleThanks()">Agradecimentos</a>
+        </div>
         <p>&nbsp;</p>
         <!--p><span class="glyphicon glyphicon-heart"></span> from the Yeoman team</p-->
       </div>

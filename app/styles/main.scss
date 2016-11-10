@@ -86,7 +86,7 @@ body {
   overflow: hidden;
   margin-left:50px;
   opacity: 0;
-  width:39%;
+  width:50%;
   .original {
     width: 97%;
     background-size: contain;
@@ -132,10 +132,15 @@ body {
     }
   }
   .tx {
-    font-size: 0.91vw;
+    text-align: justify;
+    text-justify: inter-word;
+    font-size: 0.95vw;
     font-weight: 500;
-    line-height: 1.3;
-    margin-bottom:5px;
+    line-height: 1.2;
+    margin-bottom:2.2px;
+    &.description {
+      margin-bottom:15px;
+    }
   }
   .wt {
     font-weight: 500;
@@ -296,22 +301,26 @@ body {
   border:1px solid red;
   position: absolute;
   cursor: pointer;
-  &.bt-cv {
-    margin-top:10px;
-    left:270px;
-    height:20px;
-    width:70px;
-  }
-  &.bt-thanks {
-    margin-top:10px;
-    left:470px;
-    height:20px;
-    width:70px;
+}
+.footer {
+  color: #808080;
+  a {
+    color: #808080;
+    text-decoration: none;
+    cursor:pointer;
+    &:hover {
+      color: white;
+    }
   }
 }
 
-
 #landing-page {
+  img {
+    width:120px;
+    position: absolute;
+    top:30px;
+    left:4vw;
+  }
   .maincontent {
     margin-left:0.5vw;
     width:99vw;
@@ -321,7 +330,7 @@ body {
     background-image: url(../images/landing.png);
     padding-left:4vw;
     h1 {
-      padding-top:32vh;
+      padding-top:22vh;
       line-height: 1;
       margin: 0;
       font-weight: 900;

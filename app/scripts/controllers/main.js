@@ -23,10 +23,12 @@ angular.module('chofraNetflixApp')
     })
 
     $scope.toggleCV = function(){
+      $scope.resizeAll();
       $scope.showCV = !$scope.showCV;
       $("body").animate({scrollTop: 0}, "slow", function(){
         $scope.selectedSection = null;
         $scope.showThanks = false;
+        $scope.resizeAll();
         $scope.$apply();
       });
     }
@@ -73,7 +75,7 @@ angular.module('chofraNetflixApp')
 
     $scope.getOriginal = function(){
       if(!$scope.selectedMovie) return "";
-      return {"background-image": "url(../images/movies/" + $scope.selectedMovie.id + "/original.png"}
+      return {"background-image": "url(images/movies/" + $scope.selectedMovie.id + "/original.png"}
     }
 
 
