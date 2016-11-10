@@ -10,11 +10,19 @@ body {
 .navbar-brand {
   padding: 0;
 }
+.navbar-default .navbar-collapse, .navbar-default .navbar-form {
+    border: none;
+}
 .navbar.navbar-default {
   min-height: 71px;
   background-color: black;
   border-color:black;
 
+}
+.logon {
+  position: absolute;
+  top: 0;
+  right:14px;
 }
 .prv {
   border:1px solid magenta !important;
@@ -159,23 +167,130 @@ body {
   }
 }
 
-#cv {
-  position: fixed;
-  z-index: 9999;
-  top: 57px;
+#thanks {
+  top:0px;
+  position: absolute;
+  margin-top:90px;
+  z-index: 999;
+  background-color: black;
+  display: block;
   width: 100%;
-  height: 80vh;
-  margin-top:1%;
-  background-color: #141414;
-  background-image: url(../images/cv-background.png);
-  background-size: cover;
-  background-repeat: no-repeat;
-  .cont {
-    margin-top:16%;
-    margin-left:380px;
-    color: white;
-    margin-right:20vw
+  height:70vh;
+  color: #fff;
+  .btn-close {
+    border:1px solid transparent;
+    width:30px;
+    height:30px;
+    cursor: pointer;
+    position: absolute;
+    margin-top: 2px;
+    right: 0px;
+    background-image: url(../images/bt_close.png);
+    background-repeat: no-repeat;
+    background-position: right;
+    background-size: cover;
+    border-radius: 20px;
+    &:hover {
+      border-color: white;
+    }
+
   }
+  .person {
+    margin-bottom:20px;
+  }
+  h1 {
+    padding-top:20px;
+    line-height: 1;
+    margin: 0;
+    font-weight: 900;
+    color: #fff;
+    font-size: 3vw;
+  }
+  h3 {
+    color: white;
+  }
+  img {
+    margin:20px;
+    margin-top:5px;
+    margin-left:5px;
+  }
+  p { margin: 0 0 3px; }
+  strong {
+    color: white;
+    font-size:1.0em;
+  }
+  .stars {
+    width:74px;
+    height:14px;
+    background-image: url(../images/star.png);
+    background-size: contain;
+    margin-left: 115px;
+  }
+}
+#cv {
+  top:0px;
+  position: absolute;
+  margin-top:70px;
+  z-index: 999;
+  background-color: #141414;
+  display: block;
+  width: 100%;
+  height:100vh;
+
+  .chofra-block {
+    margin-top:40px;
+    img {
+      width:100%;
+    }
+    .text-place {
+      width:65%;
+      height:30%;
+      position: absolute;
+      left:33%;
+      top:0px;
+      .blade-runner-place {
+        height:70px;
+        position: absolute;
+        width:100%;
+        margin-top:-106px;
+        background-image: url(../images/curriculo_title.png);
+        background-repeat: no-repeat;
+        background-position: left;
+        background-size: contain;
+
+      }
+      img.rating {
+          width:27vw;
+      }
+      .cv-text {
+        width:70%;
+        color: white;
+        padding-top:10px;
+        line-height: 1.28vw;
+        font-size:0.8vw
+      }
+
+      .btn-close {
+        border:1px solid transparent;
+        width:30px;
+        height:30px;
+        cursor: pointer;
+        position: absolute;
+        margin-top: 2px;
+        right: 0px;
+        background-image: url(../images/bt_close.png);
+        background-repeat: no-repeat;
+        background-position: right;
+        background-size: cover;
+        border-radius: 20px;
+        &:hover {
+          border-color: white;
+        }
+
+      }
+    }
+  }
+
 }
 .bt {
   border:1px solid red;
@@ -184,6 +299,12 @@ body {
   &.bt-cv {
     margin-top:10px;
     left:270px;
+    height:20px;
+    width:70px;
+  }
+  &.bt-thanks {
+    margin-top:10px;
+    left:470px;
     height:20px;
     width:70px;
   }
@@ -266,6 +387,11 @@ div#preload { display: none; }
     padding:0px
   }
 }
+  @media (max-width: 690px) {
+    .logon {
+      display: none;
+    }
+  }
   @media (max-width: 990px) {
     .movie-description-container {
       min-height:220px;
@@ -280,6 +406,7 @@ div#preload { display: none; }
       margin-right:0px;
       width:100%;
     }
+
   }
   @media (min-width: 990px) {
     .movie-description-container {

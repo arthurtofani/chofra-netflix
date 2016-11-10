@@ -1,4 +1,10 @@
 var data = {
+  "people": [
+    { "id": "leandro", "name": "Leandro Rodrigues", "job": "Fotógrafo", "links": [["gmail", "aaa@aaa.com"], ["linkedin", "/fulano"], ["instagram", "/aaas"]] },
+    { "id": "maira", "name": "Maira Bonizzoni", "job": "Conteúdo", "links": [["gmail", "aaa@aaa.com"], ["linkedin", "/fulano"], ["instagram", "/aaas"]] },
+    { "id": "gabi", "name": "Gabriela Sampaio Fergusson", "job": "Assessora em Comunicação Digital", "links": [["gmail", "aaa@aaa.com"], ["linkedin", "/fulano"], ["instagram", "/aaas"]] },
+    { "id": "arthur", "name": "Arthur Tofani", "job": "Programação", "links": [["gmail", "aaa@aaa.com"], ["linkedin", "/fulano"], ["instagram", "/aaas"]] }
+  ],
   "lists": [
     {
       "id": "minha_lista",
