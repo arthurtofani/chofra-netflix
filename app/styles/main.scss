@@ -348,13 +348,19 @@ body {
     }
   }
   .button-go {
-    display:block;
+    display:inline-block;
     width:273px;
     height:44px;
-    background-image: url(../images/bt_gratis.png);
     cursor: pointer;
+    background-image: url(../images/bt_gratis.png);
     &:hover {
       background-image: url(../images/bt_gratis_over.png);
+    }
+    &.en {
+      background-image: url(../images/bt_free.png);
+      &:hover {
+        background-image: url(../images/bt_free_over.png);
+      }
     }
   }
 }

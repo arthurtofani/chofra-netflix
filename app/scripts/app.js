@@ -65,6 +65,9 @@ angular
 
     };
 })
+.run(function($rootScope) {
+    $rootScope.lang = 'pt';
+})
 .config(function ($routeProvider) {
     $routeProvider
       .when('/', {

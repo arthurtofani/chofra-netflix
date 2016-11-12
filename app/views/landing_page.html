@@ -2,8 +2,10 @@
 	<img src="images/logo.png">
 	<div class="maincontent">
 		<h1>See this resume.</h1>
-		<h2>ENTREVISTA É ONDE QUISER. CONTRATE QUANDO QUISER.</h2>
-		<a href="#/main" class="button-go"></a>
+		<h2 ng-if="lang=='pt'">ENTREVISTA É ONDE QUISER. CONTRATE QUANDO QUISER.</h2>
+		<h2 ng-if="lang=='en'">QUISER. CONTRATE QUANDO QUISER.</h2>
+		<a class="button-go" ng-mouseover="lang='pt'" ng-click="changeLangAndRedirect('pt')"></a>
+		<a class="button-go en" ng-mouseover="lang='en'"  ng-click="changeLangAndRedirect('en')"></a>
 	</div>
 
 </div>

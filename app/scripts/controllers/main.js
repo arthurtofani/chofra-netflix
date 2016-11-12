@@ -8,14 +8,14 @@
  * Controller of the chofraNetflixApp
  */
 angular.module('chofraNetflixApp')
-  .controller('MainCtrl', ['$scope', '$location', '$timeout', 'anchorSmoothScroll', function ($scope, $location, $timeout, anchorSmoothScroll) {
-  	$scope.data = data;
+  .controller('MainCtrl', ['$rootScope', '$scope', '$location', '$timeout', '$routeParams', 'anchorSmoothScroll', function ($rootScope, $scope, $location, $timeout, $routeParams, anchorSmoothScroll) {
+    $scope.lang = $rootScope.lang
+    $scope.data = ($rootScope.lang=="pt" ? data_br : data_en);
   	$scope.currentMouseOver = null;
   	$scope.mouseOverPromise = null;
     $scope.selectedSection = null;
     $scope.showCV = false;
     $scope.showThanks = false;
-    $scope.lang = "pt"
   	//$scope.selectedSection = $scope.data.lists[0];
 
     $(window).resize(function(){

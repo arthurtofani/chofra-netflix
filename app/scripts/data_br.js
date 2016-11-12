@@ -1,4 +1,4 @@
-var data = {
+var data_br = {
   "people": [
     { "id": "leandro", "name": "Leandro Rodrigues", "job": "Fotógrafo", "links": [["gmail", "aaa@aaa.com"], ["linkedin", "/fulano"], ["instagram", "/aaas"]] },
     { "id": "maira", "name": "Maira Bonizzoni", "job": "Conteúdo", "links": [["gmail", "aaa@aaa.com"], ["linkedin", "/fulano"], ["instagram", "/aaas"]] },
