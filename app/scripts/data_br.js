@@ -1,9 +1,9 @@
 var data_br = {
   "people": [
-    { "id": "leandro", "name": "Leandro Rodrigues", "job": "Fotógrafo", "links": [["gmail", "aaa@aaa.com"], ["linkedin", "/fulano"], ["instagram", "/aaas"]] },
-    { "id": "maira", "name": "Maira Bonizzoni", "job": "Conteúdo", "links": [["gmail", "aaa@aaa.com"], ["linkedin", "/fulano"], ["instagram", "/aaas"]] },
-    { "id": "gabi", "name": "Gabriela Sampaio Fergusson", "job": "Assessora em Comunicação Digital", "links": [["gmail", "aaa@aaa.com"], ["linkedin", "/fulano"], ["instagram", "/aaas"]] },
-    { "id": "arthur", "name": "Arthur Tofani", "job": "Programação", "links": [["gmail", "aaa@aaa.com"], ["linkedin", "/fulano"], ["instagram", "/aaas"]] }
+    { "id": "leandro", "name": "Leandro Rodrigues", "job": "Fotógrafo", "links": [["gmail", "mailto:leandro@lrodrigues.com"], ["linkedin", "https://br.linkedin.com/in/leandro-rodrigues-035167100"], ["instagram", "https://www.instagram.com/lrodrigues.foto"]] },
+    { "id": "maira", "name": "Maira Bonizzoni", "job": "Conteúdo", "links": [["gmail", "mailto:mairabonizzoni@gmail.com"], ["linkedin", "https://br.linkedin.com/in/maira-bonizzoni-38a17b2b"]] },
+    { "id": "gabi", "name": "Gabriela Sampaio Fergusson", "job": "Assessoria em Comunicação Digital", "links": [["gmail", "mailto:gabriela@bitsoci.al"], ["linkedin", "https://pt.linkedin.com/in/gabrielasampaio/pt"]] },
+    { "id": "arthur", "name": "Arthur Tofani", "job": "Programação", "links": [["gmail", "mailto:gramofone@gmail.com"], ["linkedin", "https://br.linkedin.com/in/arthur-tofani-a1849859"], ["github", "https://github.com/arthurtofani"]] }
   ],
   "lists": [
     {

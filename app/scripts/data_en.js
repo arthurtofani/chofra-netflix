@@ -1,9 +1,9 @@
 var data_en = {
   "people": [
-    { "id": "leandro", "name": "Leandro Rodrigues", "job": "Fotographer", "links": [["gmail", "aaa@aaa.com"], ["linkedin", "/fulano"], ["instagram", "/aaas"]] },
-    { "id": "maira", "name": "Maira Bonizzoni", "job": "Conteúdo", "links": [["gmail", "aaa@aaa.com"], ["linkedin", "/fulano"], ["instagram", "/aaas"]] },
-    { "id": "gabi", "name": "Gabriela Sampaio Fergusson", "job": "Assessora em Comunicação Digital", "links": [["gmail", "aaa@aaa.com"], ["linkedin", "/fulano"], ["instagram", "/aaas"]] },
-    { "id": "arthur", "name": "Arthur Tofani", "job": "Coding", "links": [["gmail", "aaa@aaa.com"], ["linkedin", "/fulano"], ["instagram", "/aaas"]] }
+    { "id": "leandro", "name": "Leandro Rodrigues", "job": "Photographer", "links": [["gmail", "mailto:leandro@lrodrigues.com"], ["linkedin", "https://br.linkedin.com/in/leandro-rodrigues-035167100"], ["instagram", "https://www.instagram.com/lrodrigues.foto"]] },
+    { "id": "maira", "name": "Maira Bonizzoni", "job": "Content", "links": [["gmail", "mailto:mairabonizzoni@gmail.com"], ["linkedin", "https://br.linkedin.com/in/maira-bonizzoni-38a17b2b"]] },
+    { "id": "gabi", "name": "Gabriela Sampaio Fergusson", "job": "Digital Communication Consultant", "links": [["gmail", "mailto:gabriela@bitsoci.al"], ["linkedin", "https://pt.linkedin.com/in/gabrielasampaio/pt"]] },
+    { "id": "arthur", "name": "Arthur Tofani", "job": "Coding", "links": [["gmail", "mailto:gramofone@gmail.com"], ["linkedin", "https://br.linkedin.com/in/arthur-tofani-a1849859"], ["github", "https://github.com/arthurtofani"]] }
   ],
   "lists": [
     {
@@ -16,32 +16,32 @@ var data_en = {
           "icon_type": "p",
           "type": "seriado",
           "name": "Stranger Things",
-          "description": "Quando um garoto tem como passatempos: ler até o amanhecer, jogar RPG e assistir a fitas VHS das mais estranhas procedências, acaba adquirindo a habilidade de cruzar referências e a empatia para ligar pontos ocultos.",
-          "starring": "Dungeons&Dragons, Marvel Comics, Muitos Livros, The Clash",
-          "genres": "80s, 90s, Repertório, Empatia, Gamification",
-          "scenes": "RPG todo domingo, Fanzine de Ska, Jogo de Tabuleiro",
-          "award": "As capacidades de empregar arquétipos de personalidade e projetar emoções ajudam a prever reações, desejos e dificuldades de um determinado público."
+          "description": "When a kid has hobbies like reading until dawn, playing RPGs and watching VHS tapes from the strangest places on Earth, he ends up with the ability to cross references and the empathy to connect hidden dots.",
+          "starring": "Dungeons & Dragons, Marvel Comics, A lot of Books, The Clash",
+          "genres": "80s, 90s, Repertoire, Empathy, Gamification",
+          "scenes": "Every Sunday RPG, Ska Fanzine, Board Game",
+          "award": "The capabilities of employing personality archetypes and projecting emotions help to predict reactions, desires, and difficulties of a given market or public."
         },
         {
           "icon_type": "d",
           "id": "downton_abbey",
           "type": "seriado",
           "name": "Downton Abbey",
-          "description": "Expondo o jovem à língua inglesa, seu pai garantiu a ele não só acesso a um mundo muito mais amplo, mas uma nova forma de pensar que foi fundamental e transformadora em sua jornada e experiências.",
-          "starring": "Guides, Filmes, Tutoriais, Muitos livros de novo",
-          "genres": "Carreira, Viagens, Sobrevivência",
-          "scenes": "Sem legenda, Cannes Lions Festival",
-          "award": "Participando de alinhamentos globais e lançamentos mundiais tornou natural o processo de pensar em inglês, para assim defender estratégias e insights culturais."
+          "description": "Exposing the young man to the English language, his father assured him not only access to a much wider world, but a new way of thinking that was fundamental in his journey to adulthood and experiences abroad.",
+          "starring": "Guides, Movies, Tutorials, A lot of Books II",
+          "genres": "Career, Travel, Survival, Culture",
+          "scenes": "A World without Subtitles, Cannes Lions Festival",
+          "award": "By participating in global alignments and product launches, the process of thinking in English has become natural, to be able to defend local strategies and explain cultural insights."
         },
         {
           "icon_type": "b",
           "id": "sexto_sentido",
           "name": "Sexto Sentido",
-          "description": "Ao começar a ver oportunidades de usar sua criatividade em todo lugar, um garoto acaba trabalhando com arte em agências de publicidade de São Paulo. Mas a curiosidade o faz ir além do layout e começa a entender o poder da “ideia certa”.",
-          "starring": "Layout, Redação, Brainstorm, Apresentação",
-          "genres": "Arte, Publicidade, Insight",
-          "scenes": "Grey/G2, Integer/OutPromo",
-          "award": "Trabalhando com criação/arte/insight há mais de 20 anos para marcas como: BMW, P&G, Mondelez, Adidas, Microsoft, Unilever, MARS, Pepsico, Diageo, Mattel, Motorola, Kellogg´s, Walmart e Warner."
+          "description": "As he begins to see opportunities to use his creativity everywhere, a boy ends up working in the art department at advertising agencies in São Paulo. But curiosity makes him go beyond the layout and starts to understand the power of the “right idea.“",
+          "starring": "Layout, Copywriter, Brainstorm, Presentation",
+          "genres": "Art, Advertising, Insight",
+          "scenes": "Grey Brasil, The Integer Group",
+          "award": "Working with creation/art/insight for over 20 years for brands like: BMW, P & G, Mondelez, Adidas, Microsoft, Unilever, MARS, Pepsico, Diageo, Mattel, Motorola, Kellogg's, Walmart and Warner."
         },
         {
           "icon_type": "d",
@@ -49,31 +49,31 @@ var data_en = {
           "original": true,
           "type": "seriado",
           "name": "Black Mirror",
-          "description": "Série antológica sobre um jovem info-freak que teve um overload de esperança com a revolução digital, e que pôde acompanhar de perto o impacto da disponibilidade de Informação no nascimento de uma economia feita de pixels e bits.",
-          "starring": "Acesso, On Demand, Mobile, Raw Data",
-          "genres": "Digital, Social, Sensorial e Inovação",
-          "scenes": "Internet discada, Aprender a programar",
-          "award": "O DIGITAL é uma camada que permeia a nossa realidade individual e ter vivenciado o seu crescimento entre grandes marcas proporcionou a descoberta de novas mídias e formatos com alto potencial criativo. "
+          "description": "This anthological series about a young info-freak who had an overload of hope with the digital revolution, and lived through the first impact of information availability and the birth of an economy made of pixels and bits.",
+          "starring": "Access, On Demand, Mobile, Raw Data",
+          "genres": "Digital, Social, Sensory, and Innovation",
+          "scenes": "Dial-up Internet, Learning to Code",
+          "award": "DIGITAL is a layer that permeates our individual reality and having experienced its growth between major brands has provided the chance to discover new medias and formats with high creative potential."
         },
         {
           "icon_type": "p",
           "id": "juno",
           "name": "Juno",
-          "description": "Surpreendido com resultados positivos sempre que precisou adaptar-se a situações inesperadas, descobre que criatividade e cabeça fria transformam desafios de última hora em oportunidades para o futuro.",
-          "starring": "Novo Deadline, Corte de Budget, Mudança de Cargo",
-          "genres": "Evento, Ativação, Guerrilha, Carreira, Fotografia",
-          "scenes": "Carnaval, São João, Coordenação de Freelas",
-          "award": "Criar novas conexões durante uma crise é uma das formas mais eficientes de desarmá-la. Seja entre profissionais, ideias ou sistemas."
+          "description": "Surprised with positive results whenever he needed to adapt to unexpected situations, he finds out that with creativity and a cool head, you can turn last-minute challenges into opportunities for the future.",
+          "starring": "New Deadline, Budget Cut, New Position",
+          "genres": "Events, Activation, Guerrilla, Career, Photography",
+          "scenes": "Carnaval, São João, Coordination of Free-lancers",
+          "award": "Creating new connections during crisis is one of the most efficient ways to disarm them. Be between professionals, ideas or systems."
         },
         {
           "name": "Clube da Luta",
           "id": "clube_da_luta",
           "icon_type": "b",
-          "description": "Cavalheiros, sejam bem vindos ao Clube da Luta. A primeira regra do Clube da Luta é: você não fala sobre o Clube da Luta. A segunda regra do Clube da Luta é: você não fala sobre o Clube da Luta.",
-          "starring": "Apenas dois caras numa luta",
-          "genres": "Uma luta de cada vez, sem camisas, sem sapatos",
-          "scenes": "Se alguém gritar \"Pára!\", fraquejar, sinalizar, a luta está terminada",
-          "award": "As lutas duram o tempo que for necessário. Se esta for a sua primeira noite no Clube da Luta, você tem de lutar."
+          "description": "Gentlemen, welcome to the Fight Club. The first rule of Fight Club is: You do not talk about Fight Club. The second rule of Fight Club is: You do not talk about Fight Club.",
+          "starring": "Only two guys in a fight",
+          "genres": "One fight at a time, no shirts, no shoes",
+          "scenes": "Someone yells stop, goes limp, taps out, the fight is over",
+          "award": "Fights will go on as long as they have to. If this is your first night at Fight Club, you have to fight."
         }
 
       ]
@@ -86,61 +86,61 @@ var data_en = {
           "name": "The Avengers",
           "id": "the_avengers",
           "icon_type": "b",
-          "description": "Promoção, Retail, Omni-Channel, Sazonal, Digital e outros heróis da publicidade se unem para completar o repertório necessário para lidar com qualquer briefing que ameace a humanidade.",
-          "starring": "Concorra, Troque, Celebridades, Brindes, Prêmios",
-          "genres": "Direção Criativa 360º, Retail Design, Shopper Marketing, PDV",
-          "scenes": "Natal, Páscoa, Férias, Black Friday, Copa do Mundo",
-          "award": "Desenvolvendo arte/conteúdo junto a celebridades como Cláudia Raia, CPM22, Sabrina Sato, Valeska, Edson Celulari, Carolina Ferraz, Cacá e Neymar Jr."
+          "description": "Promotion, Retail, Omnichannel, Seasonal, Digital and other advertising heroes come together to complete the powerpack needed to deal with any briefing that threatens mankind.",
+          "starring": "Buy&Win, Buy&Get, Celebrities, Awards",
+          "genres": "Creative Direction 360º, Retail Design, Shopper Marketing, POP",
+          "scenes": "Christmas, Easter, Holidays, Black Friday, World Cup",
+          "award": "Developing art/content with celebrities such as Cláudia Raia, CPM22, Sabrina Sato, Valeska, Edson Celulari, Carolina Ferraz and soccer stars: Cacá and Neymar Jr."
         },
         {
           "icon_type": "b",
           "name": "Start Trek",
           "id": "star_trek",
-          "description": "Indo audaciosamente ao encontro de maiores desafios, passa a liderar a USS Criação e sua incrível tripulação de Redatores, Diretores de Arte, 3D/Motion Designers e outros especialistas. Com a ajuda de Planners/Produtores, a jornada vai além das expectativas.",
-          "starring": "Equipe +20, Colaboradores +60, Jobs Internacionais",
-          "genres": "Team Building, Empoderamento, Liderança",
-          "scenes": "Batata Frita Lays - LATAM, Bid McDonalds - EUA, Capacitar indivíduos",
-          "award": "Liderar projetos simultâneos, quatro equipes ao mesmo tempo e colaborar com profissionais de outros países gerou um alto poder de comunicação e senso crítico para prioridades."
+          "description": "Going boldly to meet greater challenges, he becomes the captain of the USS Creation and his incredible crew of Editors, Directors of Art, 3D / Motion Designers and other experts. With the help of Planners / Producers, the journey goes beyond expectations.",
+          "starring": "Team +20, Employees +60, International Jobs",
+          "genres": "Team Building, Empowerment, Leadership",
+          "scenes": "Lays Chips - LATAM, Bid McDonalds - USA, Coaching",
+          "award": "Leading simultaneous jobs with four different teams at the same time and collaborating on international projects developed a strong communication skills and critical sense of priorities."
         },
         {
           "icon_type": "d",
-          "name": "Truque de Mestre",
+          "name": "Now You See Me",
           "id": "truque_de_mestre",
-          "description": "Um grupo de ilusionistas teria muita dificuldade em roubar a atenção do público durante um grande evento. Mas usando criatividade e os truques certos as dificuldades viram enormes oportunidades...",
-          "starring": "Ativação, Experiência, Mídias Sociais, Influencers",
-          "genres": "Feiras, Convenções, Lançamentos, Brand Awareness",
-          "scenes": "BGS X-Box, MPN2015 Cheetos, Clube Social Barretos, Lançamentos: X-Box ONE, Moto E, Windows 8 e 10, FIFA2015, Adidas Boost",
-          "award": "Transformar experiências entre público e marca em memórias afetivas - por meio de tecnologia, inovação e surpresas - é um truque de mestre para futuros love brands."
+          "description": "A group of illusionists would find it very difficult to steal the public's attention during a major event. But using creativity and the right tricks the difficulties become huge opportunities...",
+          "starring": "Activation, Experience, Social Media, Influencers",
+          "genres": "Fairs, Conventions, New Releases, Brand Awareness",
+          "scenes": "X-Box BGS, MPN2015 Cheetos, Barretos Social Club, Launches: X-Box ONE, Moto E, Windows 8 and 10, FIFA2015, Adidas Boost",
+          "award": "Transforming experiences between audience and brand into affective memories - through technology, innovation and surprises - is the Master Trick for future love brands."
         },
         {
           "icon_type": "p",
           "name": "Toy Story 3",
           "id": "toy_story_3",
-          "description": "Quando Entretenimento vai além das telas, os personagens viram mais do que brinquedos, roupas e brindes, ganham voz tornando-se ícones pop que encaram as mais divertidas confusões e produções dentro da agência!",
-          "starring": "Licenciamentos, Apparel, Colecionáveis",
-          "genres": "Desenhos Animados, Filmes, Video Games",
-          "scenes": "Mattel, Halo, A Vida Secreta dos Bichos, M&M, Disney",
-          "award": "Fazendo uso de franquias famosas como, Hot Wheels, Barbie Monster High, Ever After High e M&M, para a criação de experiências de consumo em grandes varejos e eventos."
+          "description": "When Entertainment goes beyond the screens, the characters turn into more than toys, clothing and gifts, gain voice and become pop icons that face the coolest adventures and productions within the agency!",
+          "starring": "Licensing, Apparel, Collectibles",
+          "genres": "Cartoons, Movies, Shows, Video Games",
+          "scenes": "Mattel, Halo, The Secret Life of Pets, M & M, Disney",
+          "award": "Working with famous franchises such as Hot Wheels, Monster High Barbie, Ever After High and M&M, to create consumer experiences at major retailers and events."
         },
         {
           "icon_type": "p",
-          "name": "O Lobo de Wall Street",
+          "name": "The Wolf of Wall Street",
           "id": "lobo_de_wallstreet",
-          "description": "O emocionante mundo do “preço das coisas” passa a ser parte da rotina criativa e descobre-se que muitas vezes o transporte é mais caro que o brinde. Assista a Insight Vs ROI neste drama financeiro.",
-          "starring": "Protótipo, Mock-up, Cenografia, App, Mão-de-obra",
-          "genres": "Plano de Mídia, Importar da China, Logística, Programar na Índia",
-          "scenes": "Aquaplay Gigante, “Explodir” um parquinho, projeção mapeada em um cruzeiro, GPS de hipermercado, Escape Room Cheetos",
-          "award": "Levar em conta o budget nos insights e propostas criativas traz segurança na execução de ideias ousadas e experiências inovadoras."
+          "description": "The exciting world of \"Price of Things\" begins to be part of his creative routine and finds that sometimes the delivery is more expensive than the gift. Watch Insight Vs ROI in this financial drama.",
+          "starring": "Prototype, Mock-up, Scenography, App, Workforce",
+          "genres": "Media Plan, Importing from China, Logistics, Programming in India",
+          "scenes": "This movie is about: Aquaplay Giant, \"Blast away\" a playground, mapped projection on a cruise, hypermarket GPS, Escape Room Cheetos",
+          "award": "Taking account of budget in insights and creative proposals brings security in the execution of bold ideas and innovative experiences."
         },
         {
           "icon_type": "d",
           "id": "suits",
           "name": "Suits",
-          "description": "Mesmo sem formação em Direito, aprende na prática a lidar com leis e regulamentos do mercado publicitário. Em paralelo, passa desenvolver os processos de comunicação interna e as prioridades do departamento.",
-          "starring": "Processos, Fila de Jobs, Tráfego, Brief",
-          "genres": "Sorteios, Permissões, Self-Liquidate, Moneyback",
-          "scenes": " Cidade Limpa, Regulamentação da Publicidade Infantil",
-          "award": "Observar a legalidade e segurança em todos os contatos com o público e ter uma cadeia clara de informação interna evita crises e a perda de prazos."
+          "description": "Even without a law degree, he learns in practice to deal with laws and regulations of the advertising market. In parallel, he is responsible for developing internal communication processes and department priorities.",
+          "starring": "Processes, Jobs Queue, Traffic, Brief",
+          "genres": "Sorts, Permissions, Self-Liquidate, Moneyback",
+          "scenes": " This show is about: Projeto Cidade Limpa (SP), Regulation for Children's Advertising",
+          "award": "Observing legality and security in all contacts with the public and having a clear chain of internal information avoids crises and the loss of deadlines."
         }
       ]
     },
@@ -154,63 +154,63 @@ var data_en = {
           "icon_type": "p",
           "type": "seriado",
           "name": "House of Cards",
-          "description": "Um criativo com pensamento estratégico começa a transformar ações táticas em resultados concretos, pois não mede esforços na tentativa de seguir um planejamento inteligente e assim conquistar o mercado.",
-          "starring": "Fee, Calendário de Ações, Campanhas Anuais, Mercado-teste",
-          "genres": "Co-branding, Programas, Desenvolvimento de Canais",
-          "scenes": "Checkout P&G+MDLZ, Matell+C&A, Categoria X-Box, Pão de Açucar+Diageo, adidas+FARM, Halls+EasyTaxi",
-          "award": "Co-criando com planners em campanhas extensas e com objetivos a longo prazo nos segmentos de snacks, hardware, higiene, brinquedos, moda e bebidas alcoólicas."
+          "description": "When a strategically-minded creative begins to turn tactical action into concrete results, it becomes clear that each effort is part of hidden planning for real market growth.",
+          "starring": "Fee, Annual Campaigns, Test Market",
+          "genres": "Co-branding, Programs, Channel Development",
+          "scenes": "Checkout P&G + MDLZ, Matell + C&A, InStore X-Box, GPA + Diageo, adidas + FARM, Halls + EasyTaxi",
+          "award": "Co-creating with planners in campaigns with long-term goals in the segments of snacks, hardware, hygiene, toys, fashion and alcoholic beverages."
         },
         {
           "id": "pulp_fiction",
           "icon_type": "p",
           "name": "Pulp Fiction",
-          "description": "Este clássico da publicidade estilizada - também conhecido como Storytelling - costura todos os projetos e apresentações em que se envolve, pois descobre que nos tempos de hoje todos querem ouvir e participar de uma boa história.",
-          "starring": "Branded Content, Conexão Emocional, Path to Purchase",
-          "genres": "Cross Media, Presença Digital, Workshop, Ligar Pontos",
-          "scenes": "M&M Vote, Diageo White Horse, PepsiCo Sensações, Halo 5",
-          "award": "Transmitir conteúdo de marca por meio de histórias resultou em prêmios POPAI e em recorde de interações digitais durante o lançamento de Halo 5 para X-Box One."
+          "description": "This classic in stylized advertising - also known as Storytelling - permeates all the projects and presentations in which he engages. For in these times everyone wants to see or better yet, to be part of a good story.",
+          "starring": "Branded Content, Emotional Connection, Path to Purchase",
+          "genres": "Cross Media, Digital Presence, Workshop, Connect Dots",
+          "scenes": " M&M Vote 2016 Campaign, White Horse - Diageo, Sensações Chips -  PepsiCo, Halo 5",
+          "award": "Conveying brand content through stories resulted in  POPAI Awards and a record of digital interactions during the launch of Halo 5 for X-Box One in Brazil."
         },
         {
           "id": "quebrando_a_banca",
           "icon_type": "d",
-          "name": "Quebrando a Banca",
-          "description": "Um brilhante mundo se abre com a descoberta do olhar criativo sobre números e dados, que geram melhores oportunidades e mais chances do que as de um cassino em Las Vegas.",
-          "starring": "Dados Estatísticos, Market Share, Tendências de Mercado",
-          "genres": "Reconhecimento de Padrões, Teoria da Informação, Segmentação",
-          "scenes": "Canal On/Off Trade, Classe A/D,  Mercado Norte/Nordeste",
-          "award": "Os Festivais Walmart, Quaresma Coqueiro e as iniciativas para MDLZ Nordeste são exemplos vencedores em que dados de mercado mostraram caminhos criativos incríveis."
+          "name": "21",
+          "description": "A brilliant world opens with the discovery that a creative mind set to look at numbers and data creates better opportunities and more chances to win than in a Las Vegas casino.",
+          "starring": "Statistical Data, Market Share, Market Trends",
+          "genres": "Pattern Recognition, Information Theory, Segmentation",
+          "scenes": "On/Off Trade Channels, Social Class, High/Low Income",
+          "award": "The Walmart Festivals Program and initiatives for MDLZ in northeastern Brazil are great examples where market data showed an incredible creative path."
         },
         {
           "id": "house",
           "icon_type": "p",
           "type": "seriado",
-          "name": "House",
-          "description": "Ao encontrar problemas complexos, testa os limites da ciência e abusa de metodologias para tratar dos desafios que deixariam qualquer um de mau humor. Seu segredo: uma misteriosa praticidade!",
-          "starring": "Poder de Decisão, Poder Feminino, Respeito",
-          "genres": "Moda, Cuidado Pessoal, Mãe & Bebê, Beleza",
-          "scenes": "Lançamento adidas+FARM e adidas+TOPSHOP, Pantene Belezas Brasileiras, Festival do Bebê Pampers",
-          "award": "Descobrir a tendência de sabores para Lays nas comidas de rua, permitiu a criação de uma promoção com o mesmo conceito para os mercados da América do Sul, Central e Caribe."
+          "name": "House, M.D.",
+          "description": "When encountering complex problems, he tests the limits of science and methodologies to address the challenges that would put anyone in a bad mood. His Secret: write everything on the whiteboard and be practical!",
+          "starring": "Design Thinking, Diagnosis, Practical Attitude",
+          "genres": "Problem Solving, Science, Cause & Effect",
+          "scenes": "This show is about: Sensações Chips Re-launch - PepsiCo, Walmart Easter Festival, InStore X-Box, Lays New Flavors - PepsiCo LATAM",
+          "award": "Finding in the street foods trend the new flavors for Lays Chips, allowed the creation of a concept-promotion that worked in all the markets of South America, Central America and the Caribbean."
         },
         {
           "id": "sex_and_the_city",
           "icon_type": "d",
           "type": "seriado",
           "name": "Sex and The City",
-          "description": "Criar para o mundo feminino, cheio de tendências, atitudes e com sua própria linguagem, só reforçou o que há muito tempo acreditava: as mulheres são f#d@ e vão dominar o mundo...",
-          "starring": "Design Thinking, Diagnóstico, Atitude Prática",
-          "genres": "Resolução de Problemas, Ciência, Causa & Efeito",
-          "scenes": "Promopack BIS, Relançamento linha Sensações PepsiCo, Festival de Páscoa Walmart, Categoria X-Box, Lays Flavors-LATAM",
-          "award": "Ao montar equipes de criativos, equalizar a proporção entre homens e mulheres, resultou em melhores projetos, crescimento pessoal dos envolvidos e mais insights."
+          "description": "Creating for the feminine world, full of tendencies, attitudes and with their own language, only reinforced what long believed: women are f # $%ing awesome and they will rule the world ...",
+          "starring": "Decision Power, Female Power, Respect",
+          "genres": "Fashion, Personal Care, Mother & Baby, Beauty",
+          "scenes": "Launch adidas + FARM and adidas + TOPSHOP, Pantene Brazilian Beauties, Pampers Baby Festival",
+          "award": "When assembling creative teams, equalizing the ratio between men and women, resulted in better projects, personal growth of everyone involved and more true insights."
         },
         {
           "id": "missao_impossivel",
           "icon_type": "d",
-          "name": "Missão Impossível",
-          "description": "O superagente Gustavo Chofra e sua experiência aceitam mais uma missão profissional: provar que com sua criatividade e capacidade de produzir material original, é impossível não conseguir uma vaga na NETFLIX.",
-          "starring": "Novo Desafio, Carreira, Futuro",
-          "genres": "Edificante, Life Changing, Sem Limites",
-          "scenes": "Agora é com o pessoal do RH",
-          "award": "Consumir informação cruzando referências é o meu ~ barato/mojo/m.o./ziriguidum ~ o que resultou em uma dedicação insana a filmes, cultura pop e histórias incríveis!"
+          "name": "Mission: Impossible - Ghost Protocol",
+          "description": "The super-agent Gustavo Chofra and his experience accept another professional mission: to prove that with his creativity and ability to produce original material at the service of NETFLIX, nothing is impossible.",
+          "starring": "New Challenge, Career, Future",
+          "genres": "Uplifting, Life Changing, No Limits",
+          "scenes": "Now it's with the HR staff",
+          "award": "Consuming lots of information crossing references ate the same time is my ~ deal/mojo/m.o./ziriguidum ~ which resulted in an insane dedication to movies, pop culture and incredible stories!"
         }
       ]
     }

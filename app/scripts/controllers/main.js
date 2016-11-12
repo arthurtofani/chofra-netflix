@@ -8,52 +8,40 @@
  * Controller of the chofraNetflixApp
  */
 angular.module('chofraNetflixApp')
-  .controller('MainCtrl', ['$rootScope', '$scope', '$location', '$timeout', '$routeParams', 'anchorSmoothScroll', function ($rootScope, $scope, $location, $timeout, $routeParams, anchorSmoothScroll) {
+  .controller('MainCtrl', ['myModals', '$rootScope', '$scope', '$location', '$timeout', '$routeParams', 'anchorSmoothScroll', function (myModals, $rootScope, $scope, $location, $timeout, $routeParams, anchorSmoothScroll) {
     $scope.lang = $rootScope.lang
+    $scope.svc = myModals;
     $scope.data = ($rootScope.lang=="pt" ? data_br : data_en);
   	$scope.currentMouseOver = null;
   	$scope.mouseOverPromise = null;
     $scope.selectedSection = null;
-    $scope.showCV = false;
-    $scope.showThanks = false;
   	//$scope.selectedSection = $scope.data.lists[0];
 
-    $(window).resize(function(){
-      $scope.resizeAll();
-    })
+
 
     $scope.toggleCV = function(){
-      $scope.resizeAll();
-      $scope.showCV = !$scope.showCV;
+      myModals.showScreen='cv';
       $("body").animate({scrollTop: 0}, "slow", function(){
         $scope.selectedSection = null;
-        $scope.showThanks = false;
-        $scope.resizeAll();
+        $scope.$apply();
+      });
+    }
+    $scope.toggleDisclaimer = function(){
+      myModals.showScreen='disclaimer';
+      $("body").animate({scrollTop: 0}, "slow", function(){
+        $scope.selectedSection = null;
         $scope.$apply();
       });
     }
     $scope.toggleThanks = function(){
-      $scope.showThanks = !$scope.showThanks;
+      myModals.showScreen='agrad';
       $("body").animate({scrollTop: 0}, "slow", function(){
         $scope.selectedSection = null;
-        $scope.showCV = false;
         $scope.$apply();
       });
 
     }
 
-    $scope.resizeAll = function(){
-      $scope.calculateCvWindowSize("top", 0.12605);
-      $scope.calculateCvWindowSize("height", 0.24605);
-    }
-    $scope.calculateCvWindowSize = function(key, coef_m){
-      var w = parseFloat($(".chofra-block img").css("width").replace("px", ""));
-      var h = parseFloat($(".chofra-block img").css("height").replace("px", ""));
-      var value =  coef_m * w + 36.17
-      var hsh = {}
-      hsh[key] = value + "px"
-      $(".chofra-block .text-place").css(hsh)
-    }
 
   	$scope.openDescription = function(section, movie){
 		if($scope.selectedSection != section){
@@ -84,5 +72,4 @@ angular.module('chofraNetflixApp')
       if(!movie.id) return {};
   		return {"background-image": "url(images/movies/" + movie.id + "/background.png)"};
   	}
-    $scope.resizeAll();
   }]);

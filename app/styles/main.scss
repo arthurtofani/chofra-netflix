@@ -27,6 +27,33 @@ body {
 .prv {
   border:1px solid magenta !important;
 }
+.lnk {
+  margin-left:10px;
+  display: inline-block;
+  &.lnk-img {
+    width:23px;
+    height:23px;
+    background-size: contain;
+    background-position: center middle;
+    background-repeat: no-repeat;
+  }
+  &.lnk-gmail {
+    background-image: url(../images/bt_gmail.png);
+  }
+  &.lnk-linkedin {
+    background-image: url(../images/bt_linkedin.png);
+  }
+  &.lnk-instagram {
+    background-image: url(../images/bt_instagram.png);
+  }
+  &.lnk-behance {
+    background-image: url(../images/bt_behance.png);
+  }
+  &.lnk-github {
+    background-image: url(../images/bt_github.png);
+  }
+}
+
 .thumbnail {
   background-color: transparent;
   border:0;
@@ -171,8 +198,7 @@ body {
     }
   }
 }
-
-#thanks {
+.simplemodal {
   top:0px;
   position: absolute;
   margin-top:90px;
@@ -182,6 +208,14 @@ body {
   width: 100%;
   height:70vh;
   color: #fff;
+  h1 {
+    padding-top:20px;
+    line-height: 1;
+    margin: 0;
+    font-weight: 900;
+    color: #fff;
+    font-size: 3vw;
+  }
   .btn-close {
     border:1px solid transparent;
     width:30px;
@@ -199,17 +233,15 @@ body {
       border-color: white;
     }
 
+    margin:20px;
+    top:15px;
   }
+}
+
+
+#thanks {
   .person {
     margin-bottom:20px;
-  }
-  h1 {
-    padding-top:20px;
-    line-height: 1;
-    margin: 0;
-    font-weight: 900;
-    color: #fff;
-    font-size: 3vw;
   }
   h3 {
     color: white;
@@ -231,6 +263,16 @@ body {
     background-size: contain;
     margin-left: 115px;
   }
+}
+.disclaimer-content {
+  width:60vw;
+  margin-top:30px;
+  text-align: justify;
+  text-justify: inter-word;
+  font-size: 0.95vw;
+  font-weight: 500;
+  line-height: 1.2;
+
 }
 #cv {
   top:0px;
@@ -297,11 +339,7 @@ body {
   }
 
 }
-.bt {
-  border:1px solid red;
-  position: absolute;
-  cursor: pointer;
-}
+
 .footer {
   color: #808080;
   a {
