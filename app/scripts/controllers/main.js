@@ -15,6 +15,7 @@ angular.module('chofraNetflixApp')
   	$scope.currentMouseOver = null;
   	$scope.mouseOverPromise = null;
     $scope.selectedSection = null;
+    $scope.show_details = null;
   	//$scope.selectedSection = $scope.data.lists[0];
 
 
@@ -66,6 +67,9 @@ angular.module('chofraNetflixApp')
       return {"background-image": "url(images/movies/" + $scope.selectedMovie.id + "/original.png"}
     }
 
+    $scope.openDetails = function(){
+      $scope.show_details = true;
+    }
 
   	$scope.getStyle = function(movie){
       if(movie==undefined) return {};

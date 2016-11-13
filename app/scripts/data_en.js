@@ -36,12 +36,12 @@ var data_en = {
         {
           "icon_type": "b",
           "id": "sexto_sentido",
-          "name": "Sexto Sentido",
+          "name": "The Sixth Sense",
           "description": "As he begins to see opportunities to use his creativity everywhere, a boy ends up working in the art department at advertising agencies in São Paulo. But curiosity makes him go beyond the layout and starts to understand the power of the “right idea.“",
           "starring": "Layout, Copywriter, Brainstorm, Presentation",
           "genres": "Art, Advertising, Insight",
           "scenes": "Grey Brasil, The Integer Group",
-          "award": "Working with creation/art/insight for over 20 years for brands like: BMW, P & G, Mondelez, Adidas, Microsoft, Unilever, MARS, Pepsico, Diageo, Mattel, Motorola, Kellogg's, Walmart and Warner."
+          "award": "Working with creation/art/insight for over 20 years for brands like: BMW, P&G, Mondelez, Adidas, Microsoft, Unilever, MARS, Pepsico, Diageo, Mattel, Motorola, Kellogg's, Walmart and Warner."
         },
         {
           "icon_type": "d",
@@ -94,9 +94,9 @@ var data_en = {
         },
         {
           "icon_type": "b",
-          "name": "Start Trek",
+          "name": "Start Trek Into Darkness",
           "id": "star_trek",
-          "description": "Going boldly to meet greater challenges, he becomes the captain of the USS Creation and his incredible crew of Editors, Directors of Art, 3D / Motion Designers and other experts. With the help of Planners / Producers, the journey goes beyond expectations.",
+          "description": "Going boldly to meet greater challenges, he becomes the captain of the USS Creation and his incredible crew of Editors, Directors of Art, 3D / Motion Designers and other experts. With the help of Planners/Producers, the journey goes beyond expectations.",
           "starring": "Team +20, Employees +60, International Jobs",
           "genres": "Team Building, Empowerment, Leadership",
           "scenes": "Lays Chips - LATAM, Bid McDonalds - USA, Coaching",
@@ -119,7 +119,7 @@ var data_en = {
           "description": "When Entertainment goes beyond the screens, the characters turn into more than toys, clothing and gifts, gain voice and become pop icons that face the coolest adventures and productions within the agency!",
           "starring": "Licensing, Apparel, Collectibles",
           "genres": "Cartoons, Movies, Shows, Video Games",
-          "scenes": "Mattel, Halo, The Secret Life of Pets, M & M, Disney",
+          "scenes": "Mattel, Halo, The Secret Life of Pets, M&M, Disney",
           "award": "Working with famous franchises such as Hot Wheels, Monster High Barbie, Ever After High and M&M, to create consumer experiences at major retailers and events."
         },
         {
@@ -146,7 +146,7 @@ var data_en = {
     },
     {
       "id": "em_alta",
-      "title": "Watching right now",
+      "title": "Trending now",
       "movies": [
         {
           "id": "house_of_cards",
@@ -195,7 +195,7 @@ var data_en = {
           "id": "sex_and_the_city",
           "icon_type": "d",
           "type": "seriado",
-          "name": "Sex and The City",
+          "name": "Sex and The City - The Movie",
           "description": "Creating for the feminine world, full of tendencies, attitudes and with their own language, only reinforced what long believed: women are f # $%ing awesome and they will rule the world ...",
           "starring": "Decision Power, Female Power, Respect",
           "genres": "Fashion, Personal Care, Mother & Baby, Beauty",

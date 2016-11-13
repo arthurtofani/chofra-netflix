@@ -54,6 +54,34 @@ body {
   }
 }
 
+#details {
+  background-color:rgba(0, 0, 0, 0.8);
+  display: block;
+  width:100vw;
+  height:100vh;
+  position: fixed;
+  top: 0;
+  left: 0;
+  .btn-close {
+    top: 0;
+    width:25px;
+    height:25px;
+    margin:5px;
+  }
+
+  .details-internal {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  /* bring your own prefixes */
+  transform: translate(-50%, -50%);
+  }
+  img {
+    max-width:80vw;
+    max-height:80vh;
+  }
+}
+
 .thumbnail {
   background-color: transparent;
   border:0;
@@ -131,18 +159,27 @@ body {
   .fake_links {
     width:30vw;
     height:10%;
-    background-size: contain;
-    background-repeat: no-repeat;
     display: block;
     position: absolute;
     bottom: 0px;
     left: 32vw;
-    &.visao_geral_seriado {
-      background-image: url(../images/visao_geral_seriado.png);
-      width:40vw;
-    }
-    &.visao_geral_filmes {
-      background-image: url(../images/visao_geral_filmes.png);
+    .flnk {
+      font-weight:800;
+      color:white;
+      border-bottom: 3px solid transparent;
+      margin-right:10px;
+      display: inline-block;
+      cursor:pointer;
+      &.detalhes {
+        &:hover {
+          text-decoration: none;
+          color: #626262;
+        }
+      }
+
+      &.active {
+        border-bottom: 3px solid red;
+      }
     }
   }
   .tx-space {
@@ -175,11 +212,11 @@ body {
   }
   .award {
     font-size: 0.81vw;
+    margin-top:1vh;
     img {
-      width:25px;
-      height:25px;
+      width:5%;
+      //height:25px;
       margin-right:10px;
-      margin-top:10px;
       float:left;
     }
   }
@@ -216,28 +253,28 @@ body {
     color: #fff;
     font-size: 3vw;
   }
-  .btn-close {
-    border:1px solid transparent;
-    width:30px;
-    height:30px;
-    cursor: pointer;
-    position: absolute;
-    margin-top: 2px;
-    right: 0px;
-    background-image: url(../images/bt_close.png);
-    background-repeat: no-repeat;
-    background-position: right;
-    background-size: cover;
-    border-radius: 20px;
-    &:hover {
-      border-color: white;
-    }
 
-    margin:20px;
-    top:15px;
-  }
 }
 
+.btn-close {
+  border:1px solid transparent;
+  width:30px;
+  height:30px;
+  cursor: pointer;
+  position: absolute;
+  margin-top: 2px;
+  right: 0px;
+  background-image: url(../images/bt_close.png);
+  background-repeat: no-repeat;
+  background-position: right;
+  background-size: cover;
+  border-radius: 20px;
+  &:hover {
+    border-color: white;
+  }
+  margin:20px;
+  top:15px;
+}
 
 #thanks {
   .person {
@@ -441,6 +478,12 @@ div#preload { display: none; }
   }
 }
   @media (max-width: 690px) {
+//    .award {
+//      img {
+//        width:15px !important;
+//        height:15px !important;
+//      }
+//    }
     .logon {
       display: none;
     }

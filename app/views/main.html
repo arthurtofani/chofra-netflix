@@ -60,19 +60,41 @@
             <img ng-src="images/movies/{{selectedMovie.id}}/rating.png">
           </div>
           <div class="tx description">{{selectedMovie.description}}</div>
-          <div class="tx">Estrelando: <span class="wt">{{selectedMovie.starring}}</span></div>
-          <div class="tx">Gêneros: <span class="wt">{{selectedMovie.genres}}</span></div>
-          <div class="tx">Cenas e Momentos: <span class="wt">{{selectedMovie.scenes}}</span></div>
+          <div class="tx">
+            <span ng-show="lang=='pt'">Estrelando:</span>
+            <span ng-show="lang=='en'">Starring:</span>
+          <span class="wt">{{selectedMovie.starring}}</span>
+          </div>
+          <div class="tx">
+            <span ng-show="lang=='pt'">Gêneros:</span>
+            <span ng-show="lang=='en'">Genres:</span>
+            <span class="wt">{{selectedMovie.genres}}</span>
+          </div>
+          <div class="tx">
+            <span ng-show="lang=='pt'">Cenas e Momentos:</span>
+            <span ng-show="lang=='en'">The movie/show is about:</span>
+            <span class="wt">{{selectedMovie.scenes}}</span>
+          </div>
           <div class="tx award">
             <img ng-src="images/{{selectedMovie.icon_type}}.png">
             {{selectedMovie.award}}
           </div>
           <div class="tx-space"></div>
-          <div class="fake_links" ng-class="getFakeLinkStyle()"></div>
+          <div class="fake_links">
+            <div class="flnk active visao_geral">VISÃO GERAL</div>
+            <a ng-click="openDetails()" class="flnk detalhes">DETALHES</a>
+          </div>
         </div>
       </div>
       </div>
     </div>
+  </div>
+</div>
+
+<div id="details" ng-show="show_details"  ng-click="show_details=false;">
+  <div class="details-internal">
+    <div class="btn-close" ng-click="closeCV()"></div>
+    <img ng-src="images/movies/{{selectedMovie.id}}/detail.png">
   </div>
 </div>
 
@@ -86,10 +108,11 @@
     <div class="footer">
       <div class="container">
         <div class="text-center">
-          <a href="" class="lnk lnk-img lnk-linkedin"></a>
-          <a href="" class="lnk lnk-img lnk-behance"></a>
-          <a href="" class="lnk lnk-img lnk-instagram"></a>
-          <a href="http://github.com/arthurtofani/chofra-netflix" class="lnk lnk-img lnk-github"></a>
+          <a target="blank" href="mailto:chofrazero@gmail.com" class="lnk lnk-img lnk-gmail"></a>
+          <a target="blank" href="https://br.linkedin.com/in/gustavo-chofra" class="lnk lnk-img lnk-linkedin"></a>
+          <a target="blank" href="https://www.behance.net/chofra" class="lnk lnk-img lnk-behance"></a>
+          <a target="blank" href="https://www.instagram.com/chofra.exe" class="lnk lnk-img lnk-instagram"></a>
+          <a target="blank" href="http://github.com/arthurtofani/chofra-netflix" class="lnk lnk-img lnk-github"></a>
           <span ng-show="lang=='pt'">
             <a class="lnk" ng-click="toggleCV()">Currículo</a>
             <a class="lnk" ng-click="toggleDisclaimer()">Disclaimer</a>

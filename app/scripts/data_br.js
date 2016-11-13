@@ -36,7 +36,7 @@ var data_br = {
         {
           "icon_type": "b",
           "id": "sexto_sentido",
-          "name": "Sexto Sentido",
+          "name": "O Sexto Sentido",
           "description": "Ao começar a ver oportunidades de usar sua criatividade em todo lugar, um garoto acaba trabalhando com arte em agências de publicidade de São Paulo. Mas a curiosidade o faz ir além do layout e começa a entender o poder da “ideia certa”.",
           "starring": "Layout, Redação, Brainstorm, Apresentação",
           "genres": "Arte, Publicidade, Insight",
@@ -83,7 +83,7 @@ var data_br = {
       "title": "Adicionados recentemente",
       "movies": [
         {
-          "name": "The Avengers",
+          "name": "Os Vingadores - The Avengers",
           "id": "the_avengers",
           "icon_type": "b",
           "description": "Promoção, Retail, Omni-Channel, Sazonal, Digital e outros heróis da publicidade se unem para completar o repertório necessário para lidar com qualquer briefing que ameace a humanidade.",
@@ -94,7 +94,7 @@ var data_br = {
         },
         {
           "icon_type": "b",
-          "name": "Start Trek",
+          "name": "Start Trek - Além da Escuridão",
           "id": "star_trek",
           "description": "Indo audaciosamente ao encontro de maiores desafios, passa a liderar a USS Criação e sua incrível tripulação de Redatores, Diretores de Arte, 3D/Motion Designers e outros especialistas. Com a ajuda de Planners/Produtores, a jornada vai além das expectativas.",
           "starring": "Equipe +20, Colaboradores +60, Jobs Internacionais",
@@ -163,7 +163,7 @@ var data_br = {
         {
           "id": "pulp_fiction",
           "icon_type": "p",
-          "name": "Pulp Fiction",
+          "name": "Pulp Fiction - Tempo de Violência",
           "description": "Este clássico da publicidade estilizada - também conhecido como Storytelling - costura todos os projetos e apresentações em que se envolve, pois descobre que nos tempos de hoje todos querem ouvir e participar de uma boa história.",
           "starring": "Branded Content, Conexão Emocional, Path to Purchase",
           "genres": "Cross Media, Presença Digital, Workshop, Ligar Pontos",
@@ -195,7 +195,7 @@ var data_br = {
           "id": "sex_and_the_city",
           "icon_type": "d",
           "type": "seriado",
-          "name": "Sex and The City",
+          "name": "Sex and The City - O Filme",
           "description": "Criar para o mundo feminino, cheio de tendências, atitudes e com sua própria linguagem, só reforçou o que há muito tempo acreditava: as mulheres são f#d@ e vão dominar o mundo...",
           "starring": "Design Thinking, Diagnóstico, Atitude Prática",
           "genres": "Resolução de Problemas, Ciência, Causa & Efeito",
@@ -205,7 +205,7 @@ var data_br = {
         {
           "id": "missao_impossivel",
           "icon_type": "d",
-          "name": "Missão Impossível",
+          "name": "Missão Impossível - Protocolo Fantasma",
           "description": "O superagente Gustavo Chofra e sua experiência aceitam mais uma missão profissional: provar que com sua criatividade e capacidade de produzir material original, é impossível não conseguir uma vaga na NETFLIX.",
           "starring": "Novo Desafio, Carreira, Futuro",
           "genres": "Edificante, Life Changing, Sem Limites",
