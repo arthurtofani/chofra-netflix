@@ -66,7 +66,30 @@ angular
     };
 })
 .run(function($rootScope) {
-    $rootScope.lang = 'pt';
+    $rootScope.lang = localStorage.getItem("lang") || 'pt';
+    var hasPreloaded = localStorage.getItem("preloaded")
+    if(!hasPreloaded){
+        var images = new Array()
+        function preload(arr) {
+            for (var i = 0; i < arr; i++) {
+                images[i] = new Image()
+                images[i].src = preload.arguments[i]
+            }
+        }
+        preload(data_br.lists[0].movies.map(function(m){
+            return "images/movies/" + m.id + "/thumbnail.png";
+        }));
+        preload(data_br.lists[1].movies.map(function(m){
+            return "images/movies/" + m.id + "/thumbnail.png";
+        }));
+        preload(data_br.lists[2].movies.map(function(m){
+            return "images/movies/" + m.id + "/thumbnail.png";
+        }));
+        localStorage.setItem("preloaded", true)
+        console.log("salvou preload")
+    }
+
+
 })
 .config(function ($routeProvider) {
     $routeProvider

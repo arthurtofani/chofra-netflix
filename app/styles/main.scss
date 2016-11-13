@@ -105,6 +105,43 @@ body {
   }
 }
 
+
+#header-menu {
+  border:1px solid #333;
+  position:absolute;
+  width: calc(60vw - 200px);
+  min-width: 400px;
+  height:110px;
+  top:70px;
+  left: 200px;
+  background-color:rgba(0, 0, 0, 0.76);
+  z-index: 9999;
+  border-top: 2px solid white;
+  color:white;
+  a {
+    display:block;
+    cursor:pointer;
+    font-weight:800;
+    color:white;
+    font-size:0.89em;
+  }
+  .blk {
+    padding:20px;
+  }
+  .first {
+    float:left;
+    width:200px;
+    height:100%;
+    display:inline-block;
+    border-right: 1px solid #999;
+    margin-right:20px;
+  }
+  .second {
+    a {
+      font-weight:300;
+    }
+  }
+}
 .movie-description-block {
     padding:0px;
     margin-bottom:20px;
@@ -204,6 +241,7 @@ body {
     margin-bottom:2.2px;
     &.description {
       margin-bottom:15px;
+      font-size: 1.1vw;
     }
   }
   .wt {
@@ -212,7 +250,7 @@ body {
   }
   .award {
     font-size: 0.81vw;
-    margin-top:1vh;
+    margin-top:2vh;
     img {
       width:5%;
       //height:25px;

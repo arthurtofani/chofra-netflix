@@ -9,18 +9,40 @@
  */
 angular.module('chofraNetflixApp')
   .controller('MainCtrl', ['myModals', '$rootScope', '$scope', '$location', '$timeout', '$routeParams', 'anchorSmoothScroll', function (myModals, $rootScope, $scope, $location, $timeout, $routeParams, anchorSmoothScroll) {
-    $scope.lang = $rootScope.lang
+    $scope.selectLang = function(){
+      $scope.lang = $rootScope.lang
+      $scope.data = ($rootScope.lang=="pt" ? data_br : data_en);
+    }
+    $scope.selectLang();
     $scope.svc = myModals;
-    $scope.data = ($rootScope.lang=="pt" ? data_br : data_en);
   	$scope.currentMouseOver = null;
   	$scope.mouseOverPromise = null;
     $scope.selectedSection = null;
     $scope.show_details = null;
+    $scope.show_menu = false;
   	//$scope.selectedSection = $scope.data.lists[0];
 
+    $scope.goMain = function(){
+      $scope.selectedSection = false;
+      $scope.show_details = false;
+      $scope.show_menu = false;
+      myModals.showScreen=null;
+    }
 
+    $scope.toggleLang = function(){
+      $rootScope.lang = ($rootScope.lang=='pt' ? 'en' : 'pt')
+      $scope.selectLang();
+      $scope.show_menu = false;
+    }
+
+
+
+    $scope.toggleMenu = function(){
+      $scope.show_menu = !$scope.show_menu;
+    }
 
     $scope.toggleCV = function(){
+      $scope.show_menu = false;
       myModals.showScreen='cv';
       $("body").animate({scrollTop: 0}, "slow", function(){
         $scope.selectedSection = null;
@@ -28,6 +50,7 @@ angular.module('chofraNetflixApp')
       });
     }
     $scope.toggleDisclaimer = function(){
+      $scope.show_menu = false;
       myModals.showScreen='disclaimer';
       $("body").animate({scrollTop: 0}, "slow", function(){
         $scope.selectedSection = null;
@@ -35,6 +58,7 @@ angular.module('chofraNetflixApp')
       });
     }
     $scope.toggleThanks = function(){
+      $scope.show_menu = false;
       myModals.showScreen='agrad';
       $("body").animate({scrollTop: 0}, "slow", function(){
         $scope.selectedSection = null;

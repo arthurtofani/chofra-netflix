@@ -10,9 +10,45 @@
           <span class="icon-bar"></span>
         </button>
 
-        <a class="navbar-brand" href="#/">
-          <img src="images/mainlogo.png">
-        </a>
+        <div class="navbar-brand">
+          <img class="imglogo" ng-click="toggleMenu()" src="images/mainlogo.png">
+        </div>
+
+        <div id="header-menu" ng-show="show_menu" class="zipper">
+          <div class="lng" ng-if="lang=='pt'">
+            <div class="blk first">
+              <a ng-click="goMain()">Início</a>
+              <a ng-click="toggleCV()">Currículo</a>
+              <a target="blank" href="mailto:chofrazero@gmail.com">E-mail</a>
+              <a ng-click="toggleThanks()">Agradecimentos</a>
+            </div>
+            <div class="blk second">
+              <a target="blank" href="https://br.linkedin.com/in/gustavo-chofra">LinkedIn</a>
+              <a target="blank" href="https://www.behance.net/chofra">Behance</a>
+              <a target="blank" href="https://www.instagram.com/chofra.exe">Instagram</a>
+              <a ng-click="toggleLang()">English version</a>
+            </div>
+            <div class="clearfix"></div>
+          </div>
+
+          <div class="lng" ng-if="lang=='en'">
+            <div class="blk first">
+              <a ng-click="goMain()">Home</a>
+              <a ng-click="toggleCV()">Resume</a>
+              <a target="blank" href="mailto:chofrazero@gmail.com">E-mail</a>
+              <a ng-click="toggleThanks()">Acknowledgment</a>
+            </div>
+            <div class="blk second">
+              <a target="blank" href="https://br.linkedin.com/in/gustavo-chofra">LinkedIn</a>
+              <a target="blank" href="https://www.behance.net/chofra">Behance</a>
+              <a target="blank" href="https://www.instagram.com/chofra.exe">Instagram</a>
+              <a ng-click="toggleLang()">Versão em português</a>
+            </div>
+            <div class="clearfix"></div>
+          </div>
+
+        </div>
+
 
       </div>
 
@@ -121,7 +157,7 @@
           <span ng-show="lang=='en'">
             <a class="lnk" ng-click="toggleCV()">Resumé</a>
             <a class="lnk" ng-click="toggleDisclaimer()">Disclaimer</a>
-            <a class="lnk" ng-click="toggleThanks()">Thanks</a>
+            <a class="lnk" ng-click="toggleThanks()">Acknowledgment</a>
           </span>
         </div>
         <p>&nbsp;</p>

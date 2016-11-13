@@ -13,6 +13,7 @@ angular.module('chofraNetflixApp')
   	myModals.showScreen=null;
   	$scope.changeLangAndRedirect = function(lang){
   		$rootScope.lang = lang;
+  		localStorage.setItem("lang", lang)
   		$location.path("/main");
   	}
   }]);
