@@ -13,6 +13,12 @@ angular.module('chofraNetflixApp')
       $scope.lang = $rootScope.lang
       $scope.data = ($rootScope.lang=="pt" ? data_br : data_en);
     }
+    $scope.toggleLang = function(){
+      $rootScope.lang = ($rootScope.lang=='pt' ? 'en' : 'pt')
+      $scope.selectLang();
+      $scope.show_menu = false;
+    }
+
     $scope.selectLang();
     $scope.svc = myModals;
   	$scope.currentMouseOver = null;
@@ -29,11 +35,6 @@ angular.module('chofraNetflixApp')
       myModals.showScreen=null;
     }
 
-    $scope.toggleLang = function(){
-      $rootScope.lang = ($rootScope.lang=='pt' ? 'en' : 'pt')
-      $scope.selectLang();
-      $scope.show_menu = false;
-    }
 
 
 

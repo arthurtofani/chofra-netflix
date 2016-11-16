@@ -7,6 +7,9 @@ angular.module('chofraNetflixApp')
     $scope.close = function(){
     	myModals.showScreen = null;
     }
+    $rootScope.$watch('lang', function(){
+      $scope.lang = $rootScope.lang;
+    })
     $scope.resizeAll = function(){
       $scope.calculateCvWindowSize("top", 0.12605);
       $scope.calculateCvWindowSize("height", 0.24605);

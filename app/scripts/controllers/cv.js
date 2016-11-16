@@ -10,6 +10,9 @@ angular.module('chofraNetflixApp')
     		$scope.resizeAll();
     	}
     })
+    $rootScope.$watch('lang', function(){
+      $scope.lang = $rootScope.lang;
+    })
     $scope.closeCV = function(){
     	myModals.showScreen = null;
     }

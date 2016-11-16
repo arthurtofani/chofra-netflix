@@ -13,4 +13,7 @@ angular.module('chofraNetflixApp')
     $scope.close = function(){
     	myModals.showScreen = null;
     }
+    $rootScope.$watch('lang', function(){
+      $scope.lang = $rootScope.lang;
+    })
   }]);

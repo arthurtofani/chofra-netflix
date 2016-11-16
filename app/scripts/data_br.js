@@ -206,7 +206,7 @@ var data_br = {
           "id": "missao_impossivel",
           "icon_type": "d",
           "name": "Missão Impossível - Protocolo Fantasma",
-          "description": "O superagente Gustavo Chofra e sua experiência aceitam mais uma missão profissional: provar que com sua criatividade e capacidade de produzir material original, é impossível não conseguir uma vaga na NETFLIX.",
+          "description": "O superagente Gustavo Chofra e sua experiência aceitam mais uma missão profissional: provar que com sua criatividade e capacidade de produzir material original a serviço da NETFLIX, nada é impossível.",
           "starring": "Novo Desafio, Carreira, Futuro",
           "genres": "Edificante, Life Changing, Sem Limites",
           "scenes": "Agora é com o pessoal do RH",
