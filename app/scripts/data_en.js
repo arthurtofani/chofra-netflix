@@ -66,7 +66,7 @@ var data_en = {
           "award": "Creating new connections during crisis is one of the most efficient ways to disarm them. Be between professionals, ideas or systems."
         },
         {
-          "name": "Clube da Luta",
+          "name": "Fight Club",
           "id": "clube_da_luta",
           "icon_type": "b",
           "description": "Gentlemen, welcome to the Fight Club. The first rule of Fight Club is: You do not talk about Fight Club. The second rule of Fight Club is: You do not talk about Fight Club.",

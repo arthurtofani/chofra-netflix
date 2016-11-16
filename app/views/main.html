@@ -10,8 +10,9 @@
           <span class="icon-bar"></span>
         </button>
 
-        <div class="navbar-brand">
-          <img class="imglogo" ng-click="toggleMenu()" src="images/mainlogo.png">
+        <div class="navbar-brands">
+          <img class="imglogo" ng-click="toggleMenu()" src="images/mainlogo.png" ng-if="lang=='pt'">
+          <img class="imglogo" ng-click="toggleMenu()" src="images/bt_browse.png" ng-if="lang=='en'">
         </div>
 
         <div id="header-menu" ng-show="show_menu" class="zipper">
@@ -90,7 +91,7 @@
       <div class="container">
         <div class="movie-details">
           <h1 ng-if="!selectedMovie.original">{{selectedMovie.name}}</h1>
-          <div class="original" ng-if="selectedMovie.original" ng-style="getOriginal()">
+          <div class="original {{selectedMovie.id}}" ng-if="selectedMovie.original" ng-style="getOriginal()">
           </div>
           <div class="stars">
             <img ng-src="images/movies/{{selectedMovie.id}}/rating.png">
@@ -115,10 +116,18 @@
             <img ng-src="images/{{selectedMovie.icon_type}}.png">
             {{selectedMovie.award}}
           </div>
+          <div class="tx addlist">
+            <img ng-src="images/ad_minhalista.png" ng-show="lang=='pt'">
+            <img ng-src="images/ad_mylist.png" ng-show="lang=='en'">
+          </div>
           <div class="tx-space"></div>
-          <div class="fake_links">
+          <div class="fake_links" ng-if="lang=='pt'">
             <div class="flnk active visao_geral">VISÃO GERAL</div>
             <a ng-click="openDetails()" class="flnk detalhes">DETALHES</a>
+          </div>
+          <div class="fake_links" ng-if="lang=='en'">
+            <div class="flnk active visao_geral">OVERVIEW</div>
+            <a ng-click="openDetails()" class="flnk detalhes">DETAILS</a>
           </div>
         </div>
       </div>
@@ -155,7 +164,7 @@
             <a class="lnk" ng-click="toggleThanks()">Agradecimentos</a>
           </span>
           <span ng-show="lang=='en'">
-            <a class="lnk" ng-click="toggleCV()">Resumé</a>
+            <a class="lnk" ng-click="toggleCV()">Resume</a>
             <a class="lnk" ng-click="toggleDisclaimer()">Disclaimer</a>
             <a class="lnk" ng-click="toggleThanks()">Acknowledgment</a>
           </span>

@@ -9,6 +9,7 @@ body {
 }
 .navbar-brand {
   padding: 0;
+  margin-left:5px;
 }
 .navbar-default .navbar-collapse, .navbar-default .navbar-form {
     border: none;
@@ -184,6 +185,9 @@ body {
     background-size: contain;
     height: 8vh;
     background-repeat: no-repeat;
+    &.black_mirror {
+      height: 13vh;
+    }
   }
   h1 {
     line-height: 1;
@@ -226,7 +230,7 @@ body {
   }
   .stars {
     margin-top:5px;
-    width:70%;
+    width:55%;
     height: 30px;
     img {
       width:90%;
@@ -247,6 +251,16 @@ body {
   .wt {
     font-weight: 500;
     color: white;
+  }
+  .addlist {
+    width:100%;
+    overflow: hidden;
+    height: 46px;
+    img {
+      width: 15%;
+      margin-top: 16px;
+      margin-bottom: -31px;
+    }
   }
   .award {
     font-size: 0.81vw;
@@ -385,11 +399,11 @@ body {
           width:27vw;
       }
       .cv-text {
-        width:70%;
+        width: 76%;
         color: white;
-        padding-top:10px;
-        line-height: 1.28vw;
-        font-size:0.8vw
+        padding-top: 10px;
+        line-height: 1.20vw;
+        font-size: 0.92vw;
       }
 
       .btn-close {
