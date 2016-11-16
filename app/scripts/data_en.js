@@ -16,29 +16,29 @@ var data_en = {
           "icon_type": "p",
           "type": "seriado",
           "name": "Stranger Things",
-          "description": "When a kid has hobbies like reading until dawn, playing RPGs and watching VHS tapes from the strangest places on Earth, he ends up with the ability to cross references and the empathy to connect hidden dots.",
+          "description": "When a kid enjoys reading until dawn, playing RPG and watching VHS tapes from the strangest places on Earth, he ends up with the ability to cross references and the empathy to connect hidden dots.",
           "starring": "Dungeons & Dragons, Marvel Comics, A lot of Books, The Clash",
-          "genres": "80s, 90s, Repertoire, Empathy, Gamification",
-          "scenes": "Every Sunday RPG, Ska Fanzine, Board Game",
-          "award": "The capabilities of employing personality archetypes and projecting emotions help to predict reactions, desires, and difficulties of a given market or public."
+          "genres": "80s and 90s, Repertoire, Empathy, Gamification",
+          "scenes": "RPG on Sundays, Ska Fanzine, Board Game",
+          "award": "Being able to employ personality archetypes and to project emotions helps predicting reactions, desires, and difficulties of any given market or audience."
         },
         {
           "icon_type": "d",
           "id": "downton_abbey",
           "type": "seriado",
           "name": "Downton Abbey",
-          "description": "Exposing the young man to the English language, his father assured him not only access to a much wider world, but a new way of thinking that was fundamental in his journey to adulthood and experiences abroad.",
+          "description": "When a father introduces his young son to the English language, he makes sure the kid not only not only reaches a much wider world, but also ensures a new way of thinking that was fundamental in his journey into adulthood and experiences abroad.",
           "starring": "Guides, Movies, Tutorials, A lot of Books II",
           "genres": "Career, Travel, Survival, Culture",
           "scenes": "A World without Subtitles, Cannes Lions Festival",
-          "award": "By participating in global alignments and product launches, the process of thinking in English has become natural, to be able to defend local strategies and explain cultural insights."
+          "award": "By participating in global alignments and product launches, the process of thinking in English became natural, in defending local strategies and explaining cultural insights."
         },
         {
           "icon_type": "b",
           "id": "sexto_sentido",
           "name": "The Sixth Sense",
-          "description": "As he begins to see opportunities to use his creativity everywhere, a boy ends up working in the art department at advertising agencies in São Paulo. But curiosity makes him go beyond the layout and starts to understand the power of the “right idea.“",
-          "starring": "Layout, Copywriter, Brainstorm, Presentation",
+          "description": "As he begins to see opportunities to use his creativity everywhere, a boy ends up working in the art department of ad agencies in São Paulo. But curiosity makes him go beyond the layout and he begins to understand the power of the “right idea.“",
+          "starring": "Layout, Copywriting, Brainstorming, Presentation",
           "genres": "Art, Advertising, Insight",
           "scenes": "Grey Brasil, The Integer Group",
           "award": "Working with creation/art/insight for over 20 years for brands like: BMW, P&G, Mondelez, Adidas, Microsoft, Unilever, MARS, Pepsico, Diageo, Mattel, Motorola, Kellogg's, Walmart and Warner."
@@ -49,21 +49,21 @@ var data_en = {
           "original": true,
           "type": "seriado",
           "name": "Black Mirror",
-          "description": "This anthological series about a young info-freak who had an overload of hope with the digital revolution, and lived through the first impact of information availability and the birth of an economy made of pixels and bits.",
+          "description": "This anthological series shows a young “info-freak“ man overloaded with hope in the early days of the digital revolution and follows him during the first impact of information availability and the birth of an economy made of pixels and bits.",
           "starring": "Access, On Demand, Mobile, Raw Data",
           "genres": "Digital, Social, Sensory, and Innovation",
           "scenes": "Dial-up Internet, Learning to Code",
-          "award": "DIGITAL is a layer that permeates our individual reality and having experienced its growth between major brands has provided the chance to discover new medias and formats with high creative potential."
+          "award": "DIGITAL is a layer that permeates our individual reality and having experienced its growth among major brands has provided the chance to discover new media and formats using high creativity potential."
         },
         {
           "icon_type": "p",
           "id": "juno",
           "name": "Juno",
-          "description": "Surprised with positive results whenever he needed to adapt to unexpected situations, he finds out that with creativity and a cool head, you can turn last-minute challenges into opportunities for the future.",
-          "starring": "New Deadline, Budget Cut, New Position",
+          "description": "Surprised with the positive outcomes whenever he needed to adapt to unexpected situations, a young man finds out that with creativity and a cool head, you can turn last-minute challenges into future opportunities.",
+          "starring": "New Deadline, Budget Cut, Job Promotion",
           "genres": "Events, Activation, Guerrilla, Career, Photography",
-          "scenes": "Carnaval, São João, Coordination of Free-lancers",
-          "award": "Creating new connections during crisis is one of the most efficient ways to disarm them. Be between professionals, ideas or systems."
+          "scenes": "Carnaval, São João, Managing Free-lancers",
+          "award": "Creating new connections during a crisis is one of the most efficient ways to disarm them. Either among staff, ideas or systems."
         },
         {
           "name": "Fight Club",
@@ -100,33 +100,33 @@ var data_en = {
           "starring": "Team +20, Employees +60, International Jobs",
           "genres": "Team Building, Empowerment, Leadership",
           "scenes": "Lays Chips - LATAM, Bid McDonalds - USA, Coaching",
-          "award": "Leading simultaneous jobs with four different teams at the same time and collaborating on international projects developed a strong communication skills and critical sense of priorities."
+          "award": "Having to lead simultaneous jobs with four different teams and to collabore on international projects resulted in a strong communication skills and critical sense of priority."
         },
         {
           "icon_type": "d",
           "name": "Now You See Me",
           "id": "truque_de_mestre",
-          "description": "A group of illusionists would find it very difficult to steal the public's attention during a major event. But using creativity and the right tricks the difficulties become huge opportunities...",
+          "description": "A group of illusionists would find it very difficult to steal the attention of the audience during a major event. But with the help of creativity and the right tricks difficulties become huge opportunities...",
           "starring": "Activation, Experience, Social Media, Influencers",
           "genres": "Fairs, Conventions, New Releases, Brand Awareness",
           "scenes": "X-Box BGS, MPN2015 Cheetos, Barretos Social Club, Launches: X-Box ONE, Moto E, Windows 8 and 10, FIFA2015, Adidas Boost",
-          "award": "Transforming experiences between audience and brand into affective memories - through technology, innovation and surprises - is the Master Trick for future love brands."
+          "award": "Transforming experiences between audience and brand into affective memories - through technology, innovation and surprises - is the right trick for the future of love brands."
         },
         {
           "icon_type": "p",
           "name": "Toy Story 3",
           "id": "toy_story_3",
-          "description": "When Entertainment goes beyond the screens, the characters turn into more than toys, clothing and gifts, gain voice and become pop icons that face the coolest adventures and productions within the agency!",
+          "description": "When Entertainment goes beyond the screen, characters become more than toys, clothing and gifts. They get a voice of their own and turn into pop icons that face the coolest adventures and productions within the agency!",
           "starring": "Licensing, Apparel, Collectibles",
           "genres": "Cartoons, Movies, Shows, Video Games",
           "scenes": "Mattel, Halo, The Secret Life of Pets, M&M, Disney",
-          "award": "Working with famous franchises such as Hot Wheels, Monster High Barbie, Ever After High and M&M, to create consumer experiences at major retailers and events."
+          "award": "Working with famous franchises such as Hot Wheels, Monster High Barbie, Ever After High and M&M to create consumer experiences at major retailers and events."
         },
         {
           "icon_type": "p",
           "name": "The Wolf of Wall Street",
           "id": "lobo_de_wallstreet",
-          "description": "The exciting world of \"Price of Things\" begins to be part of his creative routine and finds that sometimes the delivery is more expensive than the gift. Watch Insight Vs ROI in this financial drama.",
+          "description": "The exciting world of \"The Price of Things\" becomes part of his creative routine and he finds out that sometimes the delivery is more expensive than the freebie. Watch Insight Vs ROI in this financial drama.",
           "starring": "Prototype, Mock-up, Scenography, App, Workforce",
           "genres": "Media Plan, Importing from China, Logistics, Programming in India",
           "scenes": "This movie is about: Aquaplay Giant, \"Blast away\" a playground, mapped projection on a cruise, hypermarket GPS, Escape Room Cheetos",
@@ -136,11 +136,11 @@ var data_en = {
           "icon_type": "d",
           "id": "suits",
           "name": "Suits",
-          "description": "Even without a law degree, he learns in practice to deal with laws and regulations of the advertising market. In parallel, he is responsible for developing internal communication processes and department priorities.",
+          "description": "Even without a law degree, he learns in practice to deal with laws and regulations of the advertising market. At the same time, he is responsible for developing internal communication processes and department priorities.",
           "starring": "Processes, Jobs Queue, Traffic, Brief",
           "genres": "Sorts, Permissions, Self-Liquidate, Moneyback",
           "scenes": " This show is about: Projeto Cidade Limpa (SP), Regulation for Children's Advertising",
-          "award": "Observing legality and security in all contacts with the public and having a clear chain of internal information avoids crises and the loss of deadlines."
+          "award": "Observing legality and security in all contacts with the audience and having a clear chain of internal information avoids crises and missing deadlines."
         }
       ]
     },
@@ -154,17 +154,17 @@ var data_en = {
           "icon_type": "p",
           "type": "seriado",
           "name": "House of Cards",
-          "description": "When a strategically-minded creative begins to turn tactical action into concrete results, it becomes clear that each effort is part of hidden planning for real market growth.",
+          "description": "When a strategy-minded creative begins to turn tactical action into concrete results, it became clear that a secret plan for market grow was in motion.",
           "starring": "Fee, Annual Campaigns, Test Market",
           "genres": "Co-branding, Programs, Channel Development",
           "scenes": "Checkout P&G + MDLZ, Matell + C&A, InStore X-Box, GPA + Diageo, adidas + FARM, Halls + EasyTaxi",
-          "award": "Co-creating with planners in campaigns with long-term goals in the segments of snacks, hardware, hygiene, toys, fashion and alcoholic beverages."
+          "award": "Co-creating with planners in campaigns with long-term goals in the snack, hardware, hygiene, toys, fashion and alcoholic beverages markets"
         },
         {
           "id": "pulp_fiction",
           "icon_type": "p",
           "name": "Pulp Fiction",
-          "description": "This classic in stylized advertising - also known as Storytelling - permeates all the projects and presentations in which he engages. For in these times everyone wants to see or better yet, to be part of a good story.",
+          "description": "This classic in stylized advertising - also known as Storytelling - permeates all the projects and presentations in which he engages. As nowadays everyone wants to see – or better yet – to be part of a good story.",
           "starring": "Branded Content, Emotional Connection, Path to Purchase",
           "genres": "Cross Media, Digital Presence, Workshop, Connect Dots",
           "scenes": " M&M Vote 2016 Campaign, White Horse - Diageo, Sensações Chips -  PepsiCo, Halo 5",
@@ -174,11 +174,11 @@ var data_en = {
           "id": "quebrando_a_banca",
           "icon_type": "d",
           "name": "21",
-          "description": "A brilliant world opens with the discovery that a creative mind set to look at numbers and data creates better opportunities and more chances to win than in a Las Vegas casino.",
+          "description": "A brilliant world opens up with the discovery that looking at numbers and data with a creative mind creates better opportunities and more chances to win than a Las Vegas casino.",
           "starring": "Statistical Data, Market Share, Market Trends",
           "genres": "Pattern Recognition, Information Theory, Segmentation",
           "scenes": "On/Off Trade Channels, Social Class, High/Low Income",
-          "award": "The Walmart Festivals Program and initiatives for MDLZ in northeastern Brazil are great examples where market data showed an incredible creative path."
+          "award": "The Walmart Festivals and initiatives for MDLZ in northeastern Brazil are great examples of market data showeing an incredible creative path."
         },
         {
           "id": "house",
@@ -189,17 +189,17 @@ var data_en = {
           "starring": "Design Thinking, Diagnosis, Practical Attitude",
           "genres": "Problem Solving, Science, Cause & Effect",
           "scenes": "This show is about: Sensações Chips Re-launch - PepsiCo, Walmart Easter Festival, InStore X-Box, Lays New Flavors - PepsiCo LATAM",
-          "award": "Finding in the street foods trend the new flavors for Lays Chips, allowed the creation of a concept-promotion that worked in all the markets of South America, Central America and the Caribbean."
+          "award": "Finding food trends in the streets for the new flavours for Lays Chips, allowed the creation of a concept-promotion that worked in all the markets of South America, Central America and the Caribbean."
         },
         {
           "id": "sex_and_the_city",
           "icon_type": "d",
           "type": "seriado",
           "name": "Sex and The City - The Movie",
-          "description": "Creating for the feminine world, full of tendencies, attitudes and with their own language, only reinforced what long believed: women are f # $%ing awesome and they will rule the world ...",
+          "description": "Creating for the feminine world, ripe with trends, attitudes and with a language of its own, only reinforced a long-time belief: women are f # $%ing awesome and they will rule the world ...",
           "starring": "Decision Power, Female Power, Respect",
           "genres": "Fashion, Personal Care, Mother & Baby, Beauty",
-          "scenes": "Launch adidas + FARM and adidas + TOPSHOP, Pantene Brazilian Beauties, Pampers Baby Festival",
+          "scenes": "adidas + FARM and adidas + TOPSHOP launches, Pantene Brazilian Beauties, Pampers Baby Festival",
           "award": "When assembling creative teams, equalizing the ratio between men and women, resulted in better projects, personal growth of everyone involved and more true insights."
         },
         {
@@ -210,7 +210,7 @@ var data_en = {
           "starring": "New Challenge, Career, Future",
           "genres": "Uplifting, Life Changing, No Limits",
           "scenes": "Now it's with the HR staff",
-          "award": "Consuming lots of information crossing references ate the same time is my ~ deal/mojo/m.o./ziriguidum ~ which resulted in an insane dedication to movies, pop culture and incredible stories!"
+          "award": "Consuming lots of information while crossing references ate the same time is my ~ thing/mojo/m.o./ziriguidum ~ which resulted in an insane dedication to movies, pop culture and incredible stories!"
         }
       ]
     }
