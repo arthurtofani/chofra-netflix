@@ -16,3 +16,4 @@ cd /home/arthur/Projects/chofra/chofra-netflix/app/images/movies/suits; convert 
 cd /home/arthur/Projects/chofra/chofra-netflix/app/images/movies/the_avengers; convert thumbnail.png -quality 85 thumbnail.jpg
 cd /home/arthur/Projects/chofra/chofra-netflix/app/images/movies/toy_story_3; convert thumbnail.png -quality 85 thumbnail.jpg
 cd /home/arthur/Projects/chofra/chofra-netflix/app/images/movies/truque_de_mestre; convert thumbnail.png -quality 85 thumbnail.jpg
+
