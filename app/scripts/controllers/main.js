@@ -99,6 +99,6 @@ angular.module('chofraNetflixApp')
   	$scope.getStyle = function(movie){
       if(movie==undefined) return {};
       if(!movie.id) return {};
-  		return {"background-image": "url(images/movies/" + movie.id + "/background.png)"};
+  		return {"background-image": "url(images/movies/" + movie.id + "/background.jpg)"};
   	}
   }]);
