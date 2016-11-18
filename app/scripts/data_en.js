@@ -27,7 +27,7 @@ var data_en = {
           "id": "downton_abbey",
           "type": "seriado",
           "name": "Downton Abbey",
-          "description": "When a father introduces his young son to the English language, he makes sure the kid not only not only reaches a much wider world, but also ensures a new way of thinking that was fundamental in his journey into adulthood and experiences abroad.",
+          "description": "When a father introduces his young son to the English language, he makes sure the kid not only reaches a much wider world, but also ensures a new way of thinking that was fundamental in his journey into adulthood and experiences abroad.",
           "starring": "Guides, Movies, Tutorials, A lot of Books II",
           "genres": "Career, Travel, Survival, Culture",
           "scenes": "A World without Subtitles, Cannes Lions Festival",
