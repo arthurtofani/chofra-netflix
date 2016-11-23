@@ -308,6 +308,10 @@ body {
 
 }
 
+.row.agrad-others {
+  width:50%;
+}
+
 .btn-close {
   border:1px solid transparent;
   width:30px;
@@ -528,6 +532,108 @@ div#preload { display: none; }
     padding:0px
   }
 }
+
+
+@media only screen and (orientation:portrait){
+  #landing-page  {
+    height: 100vw;
+    width:100%;
+    -webkit-transform: rotate(90deg);
+    -moz-transform: rotate(90deg);
+    -o-transform: rotate(90deg);
+    -ms-transform: rotate(90deg);
+    transform: rotate(90deg);
+
+    .maincontent {
+      margin-left: 0.5vw;
+      width: 100vh;
+      background-size: cover;
+      background-image: url(../images/landing.jpg);
+      padding-left: 4vw;
+      height: 100vw;
+
+      h1 {
+        padding-top:22vw;
+        line-height: 1;
+        margin: 0;
+        font-weight: 900;
+        color: #fff;
+        font-size: 4.7vh;
+      }
+      h2 {
+        padding-top:3vw;
+        padding-bottom:3vw;
+        line-height: 1;
+        margin: 0;
+        font-weight: 700;
+        color: #fff;
+        font-size: 1.4vh;
+        margin-bottom:60px;
+      }
+        .button-go {
+          display:block;
+          margin-top:5px;
+        }
+    }
+
+
+
+
+  }
+}
+@media only screen and (orientation:landscape){
+  .movie-description-container {
+    background-position: 60% 0% !important;
+  }
+  .movie-details {
+    .tx {
+      font-size:8.7px;
+    }
+    .tx.description {
+      font-size:9px;
+    }
+  }
+  #cv .chofra-block {
+      margin-top: 40px;
+      height: 54vw;
+      background-color: black;
+  }
+  #cv .chofra-block .text-place {
+    background-color:black;
+    .cv-text {
+      line-height: 9px;
+      font-size: 9.5px;
+    }
+  }
+  .disclaimer-content {
+    font-size:13px;
+  }
+  .container.agrad {
+    background-color:black;
+  }
+  .row.agrad-others {
+    width:100%;
+    font-size:10px;
+    padding-bottom:20px;
+  }
+  #landing-page {
+     -webkit-transform: rotate(0deg);
+     -moz-transform: rotate(0deg);
+     -o-transform: rotate(0deg);
+     -ms-transform: rotate(0deg);
+     transform: rotate(0deg);
+     .maincontent {
+        h2 {
+          margin-bottom:60px;
+        }
+     }
+  }
+}
+
+
+
+
+
   @media (max-width: 690px) {
 //    .award {
 //      img {

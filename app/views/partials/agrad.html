@@ -1,11 +1,11 @@
 <div class="simplemodal">
   <div class="btn-close" ng-click="close()"></div>
-  <div class="container">
+  <div class="container agrad">
     <h1 ng-show="lang=='pt'">Agradecimentos</h1>
     <h1 ng-show="lang=='en'">Acknowledgment</h1>
     <h3>Cast</h3>
     <div class="row" style="width:80%;">
-      <div class="col-md- col-sm-6 person" ng-repeat="p in data.people">
+      <div class="col-md-6 col-sm-6 col-xs-12 person" ng-repeat="p in data.people">
         <img ng-src="images/agrad_{{p.id}}.png" style="width:90px;height:90px;float: left;">
         <p><strong>{{p.name}}</strong></p>
         <p>{{p.job}}</p>
@@ -15,22 +15,22 @@
         </p>
       </div>
     </div>
-    <div class="row" style="width:50%;">
+    <div class="row agrad-others">
       <div class="col-md-12">
         <p ng-show="lang=='pt'">Muito obrigado pelas risadas, paciência e tempo dedicado.</p>
         <p ng-show="lang=='en'">Thanks for the laughter, patience and dedicated time.</p>
       </div>
-      <div class="col-md-4">
+      <div class="col-md-4 col-xs-4">
         Andrea Bacci<br />
         João Vinicius Saraiva<br />
         Jessica Bonetti<br />
       </div>
-      <div class="col-md-4">
+      <div class="col-md-4 col-xs-4">
         Patrícia Barletta<br />
         Tina Sherer<br />
         Ítalo Cerone<br />
       </div>
-      <div class="col-md-4">
+      <div class="col-md-4 col-xs-4">
         Pedro Oliveira<br />
         Paulo Nogueira<br />
       </div>
