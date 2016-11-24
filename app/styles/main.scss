@@ -534,7 +534,7 @@ div#preload { display: none; }
 }
 
 
-@media only screen and (orientation:portrait){
+@media only screen and (orientation:portrait) and (max-width: 400px){
   #landing-page  {
     height: 100vw;
     width:100%;
@@ -581,7 +581,7 @@ div#preload { display: none; }
 
   }
 }
-@media only screen and (orientation:landscape){
+@media only screen and (orientation:landscape) and (max-width: 700px) {
   .movie-description-container {
     background-position: 60% 0% !important;
   }
