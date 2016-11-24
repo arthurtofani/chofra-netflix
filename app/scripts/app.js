@@ -66,7 +66,7 @@ angular
     };
 })
 .run(function($rootScope) {
-    $rootScope.lang = localStorage.getItem("lang") || 'pt';
+    $rootScope.lang = localStorage.getItem("lang") || 'en';
     var hasPreloaded = localStorage.getItem("preloaded")
     if(!hasPreloaded){
         var images = new Array()
